@@ -548,7 +548,7 @@
                                     <div class="elementor-element elementor-element-c58a2b1 elementor-widget elementor-widget-heading" data-id="c58a2b1" data-element_type="widget" data-widget_type="heading.default">
                                         <div class="elementor-widget-container">
                                             <h2 class="elementor-heading-title elementor-size-default">
-                                                Realizando Sonhos<br> 
+                                                Recupere seu sorriso<br> 
                                                 Implantando Sorrisos
                                             </h2>
                                         </div>
