@@ -1730,12 +1730,12 @@
                                     <div class="elementor-widget-container">
                                         <ul class="elementor-icon-list-items elementor-inline-items">
                                             <li class="elementor-icon-list-item elementor-inline-item">
-                                                <a href="link_da_politica_de_privacidade">
+                                                <a href="politicaprivacidade">
                                                     <span class="elementor-icon-list-text">Politica de privacidade</span>
                                                 </a>
                                             </li>
                                             <li class="elementor-icon-list-item elementor-inline-item">
-                                                <a href="link_do_termo_de_confidencialidade">
+                                                <a href="termoconfidencialidade">
                                                     <span class="elementor-icon-list-text">Termo de confidencialidade</span>
                                                 </a>
                                             </li>
