@@ -3,6 +3,7 @@ RewriteEngine On
 # Redireciona para a página de manutenção, exceto quando a URI é "/novo"
 RewriteCond %{REQUEST_URI} !^/manutencao/ [NC]
 RewriteCond %{REQUEST_URI} !^/novo/ [NC]
+RewriteCond %{REQUEST_URI} !^/convite/ [NC]
 RewriteRule ^(.*)$ /manutencao/$1 [L]
 
 # Outras regras ou configurações podem seguir aqui
