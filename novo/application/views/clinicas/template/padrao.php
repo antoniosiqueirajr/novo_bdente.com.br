@@ -1745,7 +1745,7 @@
                                     <div class="elementor-widget-container">
                                         <h2 class="elementor-heading-title elementor-size-default">Feito com <span style="color: #ff0000;">❤</span> por
                                             <a href="https://sjrcapital.com.br/" title="Siqueira Jr" style="display: iblock; margin: 0 0 0 5px; top: 10px; position:relative;">
-                                                <picture><img style="height:25px;" class="" src="https://sjrcapital.com.br/assets/img/logo/logo223.png" alt=""></picture>
+                                                <picture><img style="height:25px;" class="" src="https://sjcapital.com.br/assets/img/logo/logo223.png" alt=""></picture>
                                             </a>
                                         </h2>
                                     </div>
@@ -1758,10 +1758,19 @@
                     <div class="e-con-inner">
                         <div class="elementor-element elementor-element-811e414 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="811e414" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">2024 © Todos os direitos reservados. </p>
+                                <p class="elementor-heading-title elementor-size-default" id="anoAtual"></p>
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                        // Obtém o ano atual
+                        var anoAtual = new Date().getFullYear();
+
+                        // Atualiza o conteúdo da tag <p> com o ano atual
+                        document.getElementById('anoAtual').innerText = anoAtual;
+                    </script>
+
                 </div>
             </div>
         </div>
