@@ -1,0 +1,130 @@
+.elemailer-admin-floating-wrap {
+	border: 1px solid #c3c4c7;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+	display: none;
+}
+
+.elemailer-floating-open {
+	display: block;
+	position: fixed;
+	right: 90px;
+	bottom: 75px;
+	z-index: 979798;
+	width: 400px;
+	height: 450px;
+	background-color: #fff;
+}
+
+.elemailer-admin-floating-header {
+	padding: 10px;
+	border-bottom: solid 1px #c3c4c7;
+}
+
+.elemailer-floating-head-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.elemailer-admin-floating-labels {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.elemailer-floating-head-close {
+	float: right;
+	cursor: pointer;
+}
+
+.elemailer-admin-floating-select {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.elemailer-text-center {
+	text-align: center;
+}
+
+.elemailer-admin-floating-caontainer {
+	padding: 10px;
+	min-height: 230px;
+	max-height: 230px;
+	overflow: scroll;
+}
+
+.elemailer-admin-floating-caontainer table input {
+	width: 150px;
+}
+
+.elemailer-floating-head-plus,
+.elemailer-floating-head-minus {
+	background-color: #999;
+	color: #fff;
+	font-size: 18px;
+	padding: 3px 8px;
+	cursor: pointer;
+	border-radius: 100%;
+}
+
+.elemailer-admin-floating-footer {
+	border-top: solid 1px #c3c4c7;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.elemailer-admin-floating-codes {
+	width: 100%;
+	min-height: 120px;
+	margin-top: 3px;
+}
+
+.elemailer-admin-floating-icon {
+	position: fixed;
+	right: 40px;
+	bottom: 30px;
+	z-index: 999999;
+}
+
+.elemailer-admin-floating-icon img {
+	width: 50px;
+	cursor: pointer;
+}
+
+.wpforms-admin-page .elemailer-admin-floating-icon {
+    right: 115px;
+    bottom: 40px;
+}
+
+.wpforms-admin-page .elemailer-floating-open {
+    right: 165px;
+}
+
+.elemailer-admin-floating-save-label {
+	text-decoration: underline;
+	cursor: pointer;
+	float: right;
+}
+
+.elemailer-floating-codes-copy {
+	margin-right: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    float: right;
+}
+
+.elemailer-shortcode-wrap-menu-page {
+    width: 99%;
+    margin-top: 20px;
+}
+
+.elemailer-shortcode-wrap-menu-page .elemailer-admin-floating-wrap{
+	display: block !important;
+}
+
+.elemailer-shortcode-wrap-menu-page .elemailer-admin-floating-caontainer table input {
+    width: 180px;
+}
+
+.elemailer-shortcode-wrap-menu-page .elemailer-floating-head-close,
+.elemailer_page_elemailer-shortcodes-generator .elemailer-admin-floating-icon{
+	display: none !important;
+}

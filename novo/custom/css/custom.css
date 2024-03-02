@@ -1,0 +1,292 @@
+@media (max-width: 991px) {
+    .header__logo__light,
+    .header__logo__dark{
+        max-width: 200px;
+    }
+}
+.col-sm-12{
+    padding: 0;
+}
+
+
+@media (min-width: 147px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 107px; }
+}
+@media (min-width: 254px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 214px; }
+}
+@media (min-width: 361px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 321px; }
+}
+@media (min-width: 468px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 428px; }
+}
+@media (min-width: 575px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 535px; }
+}
+@media (min-width: 682px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 642px; }
+}
+@media (min-width: 789px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 749px; }
+}
+@media (min-width: 896px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{ width: 856px; }
+}
+@media (max-width: 146px){
+    .clinicas #mapa-clinicas, .clinicas #mapa-tracos{
+        display: none;
+    }
+}
+
+.clinicas .conteudo > .row{
+    margin: 0 auto;
+}
+.clinicas{
+    position: relative;
+    overflow: hidden;
+}
+.clinicas h2{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.clinicas h2 small{
+    display: block;
+    font-size: 30px;
+}
+.clinicas h2 strong{
+    display: block;
+    font-size: 55px;;
+    font-weight: 900;
+}
+.clinicas h2:after {
+    content: "";
+    background-color: #eb0000;
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.clinicas p{
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+.clinicas h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.clinicas .estados .item .cidades a{
+    display: block;
+    padding: 0 25px;
+    line-height: 2.4;
+    font-size: 20px;
+    color: #2e2e2e;
+}
+.clinicas .estados .item .cidades a:hover{
+    background-color: #ebebeb;
+    font-weight: 700;
+}
+.clinicas #mapa-clicavel{
+    position: relative;
+    width: 856px;
+}
+.clinicas #mapa-clinicas{
+    position: relative;
+    z-index: 50;
+    width: 856px;
+    max-width: none;
+}
+.clinicas img{
+    position: absolute;
+}
+.clinicas .owl-dots{
+    display: none;
+}
+.clinicas .owl-nav{
+    display: none;
+}
+.clinicas .navegador .prev,
+.owl-nav .prev{
+    transform: scaleX(-1);
+}
+
+
+#image-map area{
+    cursor: pointer;
+}
+.mapa-estado{
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.mapa-estado.hover,
+.mapa-estado.active{
+    opacity: 100;
+    transition: all 0.3s ease;
+}
+#mapa-al{
+    top: 341.5px;
+    left: 814px;
+}
+#mapa-ac{
+    top: 330.5px;
+    left: 81px;
+}
+#mapa-am{
+    top: 209px;
+    left: 197px;
+}
+#mapa-ap{
+    top: 85.5px;
+    left: 473.5px;
+}
+#mapa-ba{
+    top: 427.5px;
+    left: 698px;
+}
+#mapa-ce{
+    top: 243px;
+    left: 756.5px;
+}
+#mapa-df{
+    top: 482px;
+    left: 572px;
+}
+#mapa-es{
+    top: 569px;
+    left: 725px;
+}
+#mapa-go{
+    top: 487px;
+    left: 533px;
+}
+#mapa-ma{
+    top: 251.5px;
+    left: 630px;
+}
+#mapa-mg{
+    top: 546px;
+    left: 622.5px;
+}
+#mapa-ms{
+    top: 592.5px;
+    left: 424.5px;
+}
+#mapa-mt{
+    top: 412px;
+    left: 394.5px;
+}
+#mapa-pa{
+    top: 204.5px;
+    left: 468.5px;
+}
+#mapa-pb{
+    top: 285px;
+    left: 812.5px;
+}
+#mapa-pe{
+    top: 312.5px;
+    left: 785px;
+}
+#mapa-pi{
+    top: 277.5px;
+    left: 671.5px;
+}
+#mapa-pr{
+    top: 685px;
+    left: 491.5px;
+}
+#mapa-rj{
+    top: 623px;
+    left: 679.5px;
+}
+#mapa-rn{
+    top: 256px;
+    left: 812.5px;
+}
+#mapa-ro{
+    top: 369.5px;
+    left: 234.5px;
+}
+#mapa-rr{
+    top: 77px;
+    left: 267.5px;
+}
+#mapa-rs{
+    top: 817.5px;
+    left: 445px;
+}
+#mapa-sc{
+    top: 753.5px;
+    left: 498.5px;
+}
+#mapa-se{
+    top: 362px;
+    left: 800px;
+}
+#mapa-sp{
+    top: 635.5px;
+    left: 554px;
+}
+#mapa-to{
+    top: 333px;
+    left: 561.5px;
+}
+
+
+@media (max-width: 768px){
+    .clinicas h2 .azul,
+    .clinicas h2 .escuro{
+        font-size: 42px;
+    }
+    .clinicas .estados .item .cidades a,
+    .clinicas p{
+        font-size: 14px;
+    }
+    .clinicas .estados .item .titulo{
+        font-size: 24px;
+    }
+}
+
+
+
+
+body .form-avaliation .label-float input,
+body .form-avaliation .label-float textarea{
+    padding: 5px 20px;
+}
+body .form-avaliation .label-float input{
+    height: 45px;
+}
+
+body .form-avaliation .label-float label{
+    top: calc(50% - 6px);
+}
+
+body .select2-container--foundation .select2-selection--single,
+body .select2-container--foundation .selection .select2-selection--single{
+    padding: 5px 20px;
+    height: 45px;
+}
+
+body .form-avaliation h3{
+    margin: 25px 0 5px 0;
+}
+
+body span.select2-container--foundation{
+    margin: 0;
+}
+
+body .form-avaliation .btn.btn-primary{
+    margin: 13px auto 25px auto;
+}
+
+body .select2-container--foundation .select2-selection--single .select2-selection__arrow,
+body .select2-container--foundation .selection .select2-selection--single .select2-selection__arrow{
+    height: 45px;
+}

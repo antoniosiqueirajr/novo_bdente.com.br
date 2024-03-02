@@ -1,0 +1,3825 @@
+# Copyright (C) 2023 elemailer
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Elemailer 4.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/elemailer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-24T11:02:09+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: elemailer\n"
+
+#. Plugin Name of the plugin
+#. translators: %s are white label strings.
+#: integrations/contact-form7/base.php:44
+#: integrations/wpforms/base.php:113
+#: plugin.php:481
+#: plugin.php:482
+#: public/views/templates.php:145
+#: public/views/templates.php:222
+msgid "Elemailer"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://elemailer.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Elementor email template & campaign builder for WordPress"
+msgstr ""
+
+#. Author of the plugin
+msgid "elemailer"
+msgstr ""
+
+#: app/emails/action.php:121
+#: app/form-template/action.php:104
+msgid "Your template is created"
+msgstr ""
+
+#: app/emails/action.php:156
+#: app/form-template/action.php:136
+msgid "Your template setting is updated."
+msgstr ""
+
+#: app/emails/action.php:233
+msgid "Your emails setting is updated."
+msgstr ""
+
+#: app/emails/action.php:381
+msgid "Your emails is deleted."
+msgstr ""
+
+#: app/emails/action.php:387
+msgid "Your emails is not deleted."
+msgstr ""
+
+#: app/emails/action.php:422
+msgid "Your email's status is changed."
+msgstr ""
+
+#: app/emails/action.php:428
+msgid "Your email's status is not changed."
+msgstr ""
+
+#: app/emails/action.php:459
+#: app/lists/action.php:277
+#: app/subscribers/action.php:396
+msgid "Successfully deleted multiple"
+msgstr ""
+
+#: app/emails/action.php:464
+#: app/lists/action.php:282
+#: app/subscribers/action.php:401
+msgid "Not deleted from the database. Try again. multiple"
+msgstr ""
+
+#: app/emails/action.php:698
+#: app/emails/view/template-parts/create-mail.php:139
+msgid "All Categories"
+msgstr ""
+
+#: app/emails/action.php:722
+#: app/emails/view/template-parts/create-mail.php:294
+#: integrations/elementor/widgets/image/image.php:137
+#: integrations/elementor/widgets/shortcode/shortcode.php:72
+msgid "None"
+msgstr ""
+
+#: app/emails/action.php:729
+msgid "Admin"
+msgstr ""
+
+#: app/emails/action.php:729
+msgid "Customer"
+msgstr ""
+
+#: app/emails/action.php:735
+msgid "Not Scheduled"
+msgstr ""
+
+#: app/emails/cpt.php:117
+msgctxt "Post Type General Name"
+msgid "Emails"
+msgstr ""
+
+#: app/emails/cpt.php:118
+msgctxt "Post Type Singular Name"
+msgid "Email"
+msgstr ""
+
+#: app/emails/cpt.php:119
+#: app/emails/cpt.php:120
+#: app/emails/view/template-parts/list-mail.php:233
+#: app/emails/view/template-parts/list-mail.php:247
+#: app/subscribers/view/template-parts/create-subscribers.php:112
+#: app/subscribers/view/template-parts/create-subscribers.php:160
+#: app/subscribers/view/template-parts/list-subscribers.php:41
+#: app/subscribers/view/template-parts/list-subscribers.php:61
+msgid "Email"
+msgstr ""
+
+#: app/emails/cpt.php:121
+msgid "Email Archives"
+msgstr ""
+
+#: app/emails/cpt.php:122
+msgid "Email Attributes"
+msgstr ""
+
+#: app/emails/cpt.php:123
+#: app/form-template/cpt.php:71
+msgid "Parent Item:"
+msgstr ""
+
+#: app/emails/cpt.php:124
+#: app/emails/cpt.php:152
+#: app/emails/view/template-parts/stats-mail.php:85
+#: app/emails/view/template-parts/stats-mail.php:94
+#: plugin.php:495
+#: plugin.php:496
+msgid "Emails"
+msgstr ""
+
+#: app/emails/cpt.php:125
+msgid "Add New Email"
+msgstr ""
+
+#: app/emails/cpt.php:126
+#: app/emails/view/emails.php:10
+#: app/form-template/cpt.php:74
+#: app/lists/view/lists.php:9
+#: app/subscribers/view/subscribers.php:10
+msgid "Add New"
+msgstr ""
+
+#: app/emails/cpt.php:127
+msgid "New Email"
+msgstr ""
+
+#: app/emails/cpt.php:128
+msgid "Edit Email"
+msgstr ""
+
+#: app/emails/cpt.php:129
+msgid "Update Email"
+msgstr ""
+
+#: app/emails/cpt.php:130
+msgid "View Email"
+msgstr ""
+
+#: app/emails/cpt.php:131
+msgid "View Emails"
+msgstr ""
+
+#: app/emails/cpt.php:132
+msgid "Search Emails"
+msgstr ""
+
+#: app/emails/cpt.php:133
+#: app/form-template/cpt.php:81
+msgid "Not found"
+msgstr ""
+
+#: app/emails/cpt.php:134
+#: app/form-template/cpt.php:82
+msgid "Not found in Trash"
+msgstr ""
+
+#: app/emails/cpt.php:135
+#: app/form-template/cpt.php:83
+msgid "Featured Image"
+msgstr ""
+
+#: app/emails/cpt.php:136
+#: app/form-template/cpt.php:84
+msgid "Set featured image"
+msgstr ""
+
+#: app/emails/cpt.php:137
+#: app/form-template/cpt.php:85
+msgid "Remove featured image"
+msgstr ""
+
+#: app/emails/cpt.php:138
+#: app/form-template/cpt.php:86
+msgid "Use as featured image"
+msgstr ""
+
+#: app/emails/cpt.php:139
+#: app/form-template/cpt.php:87
+msgid "Insert into form"
+msgstr ""
+
+#: app/emails/cpt.php:140
+#: app/form-template/cpt.php:88
+msgid "Uploaded to this form"
+msgstr ""
+
+#: app/emails/cpt.php:141
+msgid "Emails list"
+msgstr ""
+
+#: app/emails/cpt.php:142
+msgid "Emails list navigation"
+msgstr ""
+
+#: app/emails/cpt.php:143
+#: app/form-template/cpt.php:91
+msgid "Filter froms list"
+msgstr ""
+
+#: app/emails/cpt.php:153
+msgid "elemailer emails create"
+msgstr ""
+
+#: app/emails/taxonomy.php:49
+msgctxt "taxonomy general name"
+msgid "Email Types"
+msgstr ""
+
+#: app/emails/taxonomy.php:50
+msgctxt "taxonomy singular name"
+msgid "Email Type"
+msgstr ""
+
+#: app/emails/taxonomy.php:51
+msgid "Search Email Types"
+msgstr ""
+
+#: app/emails/taxonomy.php:52
+msgid "All Email Types"
+msgstr ""
+
+#: app/emails/taxonomy.php:53
+msgid "Parent Email Type"
+msgstr ""
+
+#: app/emails/taxonomy.php:54
+msgid "Parent Email Type:"
+msgstr ""
+
+#: app/emails/taxonomy.php:55
+msgid "Edit Email Type"
+msgstr ""
+
+#: app/emails/taxonomy.php:56
+msgid "Update Email Type"
+msgstr ""
+
+#: app/emails/taxonomy.php:57
+msgid "Add New Email Type"
+msgstr ""
+
+#: app/emails/taxonomy.php:58
+msgid "New Email Type Name"
+msgstr ""
+
+#: app/emails/taxonomy.php:59
+msgid "Email Type"
+msgstr ""
+
+#: app/emails/view/emails.php:9
+msgid "Emails:"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:42
+msgid "1"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:46
+msgid "2"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:50
+msgid "3"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:54
+msgid "4"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:69
+#: app/emails/view/template-parts/list-mail.php:6
+msgid "Newsletter"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:70
+msgid "Your usual friendly newsletter."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:71
+#: app/emails/view/template-parts/create-mail.php:79
+#: app/emails/view/template-parts/create-mail.php:87
+#: app/emails/view/template-parts/create-mail.php:96
+msgid "Create"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:77
+#: app/emails/view/template-parts/list-mail.php:7
+msgid "Welcome Email"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:78
+msgid "Let's welcome with style"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:85
+msgid "Post Notifications"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:86
+msgid "Send a buzz"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:94
+msgid "WooCommerce"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:95
+msgid "Design Woo emails"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:111
+msgid "WooCommerce Template Type: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:113
+msgid "Select type"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:118
+#: app/emails/view/template-parts/create-mail.php:131
+msgid "Select a template type."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:124
+msgid "Where to Apply: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:126
+msgid "Select one"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:136
+msgid "Select Category: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:145
+msgid "Select a category."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:150
+msgid "Select Product: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:153
+msgid "All Products"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:159
+msgid "Select a product."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:164
+msgid "Template Name: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:166
+msgid "Write template name here. Ex: Special Offer Campaign"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:167
+msgid "Write template name here. Ex: New Order Email"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:170
+msgid "Email Subject: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:172
+msgid "Campaign Subject. Ex: Quick deal."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:173
+msgid "Email Subject. Ex: New Order #{order_number}."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:174
+msgid "Available placeholders (Click on the placeholders to copy):"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:174
+msgid "Click to copy the placeholder"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:186
+#: app/subscribers/view/template-parts/create-subscribers.php:254
+msgid "Next"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:197
+msgid "Previous"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:198
+msgid "Next Step"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:210
+msgid "Send from"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:211
+#: app/emails/view/template-parts/create-mail.php:245
+msgid "When your subscribers send to your emails, their emails will go to this address."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:216
+#: app/settings/view/settings.php:36
+msgid "Reply-to"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:217
+msgid "When your subscribers reply to your emails, their emails will go to this address."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:226
+msgid "Send event"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:228
+msgid "When someone subscribe to the list..."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:229
+msgid "When someone register to the site..."
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:232
+msgid "As"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:244
+#: app/subscribers/view/template-parts/create-subscribers.php:168
+#: integrations/pafe/actions/hooks.php:180
+msgid "Select List"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:261
+msgid "Enable statistics"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:265
+msgid "Schedule It"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:268
+msgid "Current Date/Time: "
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:272
+msgid "This is a server level time and this is used to Schedule emails"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:288
+msgid "Start date time"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:292
+msgid "Frequency"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:295
+msgid "Hourly"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:296
+msgid "Daily"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:297
+msgid "Weekly"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:298
+msgid "Monthly"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:299
+msgid "Yearly"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:310
+msgid "Save and send"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:311
+msgid "Publish"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:313
+#: public/views/shortcode-floating-icon.php:30
+msgid "Save for later"
+msgstr ""
+
+#: app/emails/view/template-parts/create-mail.php:314
+msgid "Back to the Design Page"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:8
+msgid "Post Notification"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:10
+msgid "WooCommerce Email"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:19
+#: app/emails/view/template-parts/list-mail.php:80
+#: app/emails/view/template-parts/list-mail.php:141
+#: app/emails/view/template-parts/list-mail.php:203
+#: app/lists/view/template-parts/list-lists.php:7
+#: app/subscribers/view/template-parts/list-subscribers.php:14
+#: public/views/templates.php:15
+msgid "All"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:20
+#: app/emails/view/template-parts/list-mail.php:23
+#: app/emails/view/template-parts/list-mail.php:81
+#: app/emails/view/template-parts/list-mail.php:84
+#: app/emails/view/template-parts/list-mail.php:142
+#: app/emails/view/template-parts/list-mail.php:145
+#: app/emails/view/template-parts/list-mail.php:204
+#: app/emails/view/template-parts/list-mail.php:207
+#: app/lists/view/template-parts/list-lists.php:8
+#: app/lists/view/template-parts/list-lists.php:11
+#: app/subscribers/view/template-parts/list-subscribers.php:15
+#: app/subscribers/view/template-parts/list-subscribers.php:18
+msgid "Trash"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:28
+#: app/emails/view/template-parts/list-mail.php:89
+#: app/emails/view/template-parts/list-mail.php:150
+#: app/emails/view/template-parts/list-mail.php:212
+#: app/lists/view/template-parts/list-lists.php:16
+#: app/subscribers/view/template-parts/list-subscribers.php:23
+#: public/views/templates.php:238
+msgid "Delete"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:33
+#: app/emails/view/template-parts/list-mail.php:94
+#: app/emails/view/template-parts/list-mail.php:155
+#: app/emails/view/template-parts/list-mail.php:217
+#: app/lists/view/template-parts/list-lists.php:21
+#: app/subscribers/view/template-parts/list-subscribers.php:28
+msgid "Restore"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:46
+#: app/emails/view/template-parts/list-mail.php:59
+#: app/emails/view/template-parts/list-mail.php:107
+#: app/emails/view/template-parts/list-mail.php:120
+#: app/emails/view/template-parts/list-mail.php:168
+#: app/emails/view/template-parts/list-mail.php:181
+msgid "Email Title"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:47
+#: app/emails/view/template-parts/list-mail.php:60
+#: app/emails/view/template-parts/list-mail.php:108
+#: app/emails/view/template-parts/list-mail.php:121
+#: app/emails/view/template-parts/list-mail.php:169
+#: app/emails/view/template-parts/list-mail.php:182
+msgid "Subject"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:48
+#: app/emails/view/template-parts/list-mail.php:61
+#: app/emails/view/template-parts/list-mail.php:109
+#: app/emails/view/template-parts/list-mail.php:122
+#: app/emails/view/template-parts/list-mail.php:170
+#: app/emails/view/template-parts/list-mail.php:183
+#: app/emails/view/template-parts/list-mail.php:232
+#: app/emails/view/template-parts/list-mail.php:246
+#: app/emails/view/template-parts/stats-mail.php:86
+#: app/emails/view/template-parts/stats-mail.php:95
+#: app/subscribers/view/template-parts/create-subscribers.php:221
+#: integrations/pafe/actions/hooks.php:230
+msgid "Status"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:49
+#: app/emails/view/template-parts/list-mail.php:62
+#: app/emails/view/template-parts/list-mail.php:171
+#: app/emails/view/template-parts/list-mail.php:184
+#: plugin.php:515
+#: plugin.php:516
+msgid "Lists"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:50
+#: app/emails/view/template-parts/list-mail.php:63
+#: app/emails/view/template-parts/list-mail.php:172
+#: app/emails/view/template-parts/list-mail.php:185
+msgid "Set On"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:51
+#: app/emails/view/template-parts/list-mail.php:64
+#: app/emails/view/template-parts/list-mail.php:112
+#: app/emails/view/template-parts/list-mail.php:125
+#: app/emails/view/template-parts/list-mail.php:173
+#: app/emails/view/template-parts/list-mail.php:186
+#: app/emails/view/template-parts/list-mail.php:236
+#: app/emails/view/template-parts/list-mail.php:250
+#: integrations/elementor/widgets/shortcode/shortcode.php:28
+#: integrations/elementor/widgets/shortcode/shortcode.php:110
+#: public/views/shortcode-floating-icon.php:29
+msgid "Shortcode"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:52
+#: app/emails/view/template-parts/list-mail.php:65
+#: app/emails/view/template-parts/list-mail.php:113
+#: app/emails/view/template-parts/list-mail.php:126
+#: app/emails/view/template-parts/list-mail.php:174
+#: app/emails/view/template-parts/list-mail.php:187
+#: app/emails/view/template-parts/list-mail.php:237
+#: app/emails/view/template-parts/list-mail.php:251
+#: app/emails/view/template-parts/stats-mail.php:89
+#: app/emails/view/template-parts/stats-mail.php:98
+#: app/lists/view/template-parts/list-lists.php:40
+#: app/lists/view/template-parts/list-lists.php:52
+#: app/subscribers/view/template-parts/list-subscribers.php:54
+#: app/subscribers/view/template-parts/list-subscribers.php:67
+msgid "Created At"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:53
+#: app/emails/view/template-parts/list-mail.php:66
+#: app/emails/view/template-parts/list-mail.php:114
+#: app/emails/view/template-parts/list-mail.php:127
+#: app/emails/view/template-parts/list-mail.php:175
+#: app/emails/view/template-parts/list-mail.php:188
+#: app/emails/view/template-parts/list-mail.php:238
+#: app/emails/view/template-parts/list-mail.php:252
+msgid "Action"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:106
+#: app/emails/view/template-parts/list-mail.php:119
+#: app/emails/view/template-parts/list-mail.php:167
+#: app/emails/view/template-parts/list-mail.php:180
+#: app/emails/view/template-parts/list-mail.php:229
+#: app/emails/view/template-parts/list-mail.php:243
+msgid "ID"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:110
+#: app/emails/view/template-parts/list-mail.php:123
+msgid "Event"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:111
+#: app/emails/view/template-parts/list-mail.php:124
+msgid "Type/ Lists"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:230
+#: app/emails/view/template-parts/list-mail.php:244
+msgid "Template Title"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:231
+#: app/emails/view/template-parts/list-mail.php:245
+msgid "Email Subject"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:234
+#: app/emails/view/template-parts/list-mail.php:248
+msgid "Recipient"
+msgstr ""
+
+#: app/emails/view/template-parts/list-mail.php:235
+#: app/emails/view/template-parts/list-mail.php:249
+msgid "Condition"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:34
+msgid "Sent to List(s):"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:46
+msgid "No List Selected"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:56
+msgid "From:"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:57
+msgid "Reply-to:"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:67
+msgid "Sent to: "
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:68
+msgid "Opened"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:87
+#: app/emails/view/template-parts/stats-mail.php:96
+msgid "Open"
+msgstr ""
+
+#: app/emails/view/template-parts/stats-mail.php:88
+#: app/emails/view/template-parts/stats-mail.php:97
+#: integrations/elementor/widgets/footer/footer.php:131
+#: lib/pages/unsubscribers/manage-unsubscription.php:6
+msgid "Unsubscribe"
+msgstr ""
+
+#: app/form-template/cpt.php:65
+msgctxt "Post Type General Name"
+msgid "Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:66
+msgctxt "Post Type Singular Name"
+msgid "Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:67
+#: app/form-template/cpt.php:68
+msgid "Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:69
+msgid "Form Template Archives"
+msgstr ""
+
+#: app/form-template/cpt.php:70
+msgid "Form Template Attributes"
+msgstr ""
+
+#: app/form-template/cpt.php:72
+#: app/form-template/cpt.php:100
+msgid "Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:73
+msgid "Add New Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:75
+msgid "New Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:76
+msgid "Edit Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:77
+msgid "Update Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:78
+msgid "View Form Template"
+msgstr ""
+
+#: app/form-template/cpt.php:79
+msgid "View Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:80
+msgid "Search Form Templates"
+msgstr ""
+
+#: app/form-template/cpt.php:89
+msgid "Form Templates list"
+msgstr ""
+
+#: app/form-template/cpt.php:90
+msgid "Form Templates list navigation"
+msgstr ""
+
+#: app/form-template/cpt.php:101
+msgid "elemailer form template create"
+msgstr ""
+
+#: app/lists/action.php:107
+#: app/subscribers/action.php:175
+#: app/subscribers/action.php:181
+msgid "Successfully added"
+msgstr ""
+
+#: app/lists/action.php:112
+msgid "Not inserted in the database. Try again."
+msgstr ""
+
+#: app/lists/action.php:150
+#: app/subscribers/action.php:271
+msgid "Successfully Updated"
+msgstr ""
+
+#: app/lists/action.php:155
+#: app/subscribers/action.php:276
+msgid "Not Updated in the database. Try again."
+msgstr ""
+
+#: app/lists/action.php:187
+#: app/lists/action.php:244
+#: app/subscribers/action.php:308
+#: app/subscribers/action.php:365
+msgid "Successfully deleted"
+msgstr ""
+
+#: app/lists/action.php:192
+#: app/lists/action.php:249
+#: app/subscribers/action.php:313
+#: app/subscribers/action.php:370
+msgid "Not deleted from the database. Try again."
+msgstr ""
+
+#: app/lists/view/lists.php:8
+msgid "Lists:"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:18
+msgid "List Title"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:19
+msgid "Give a title for your list. This is publically visible to your subscribers"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:24
+msgid "List Description"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:25
+msgid "Give a description / purposefor your list. This is for internal use only."
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:30
+msgid "List Type"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:31
+msgid "Choose if you want your list to be public or private."
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:33
+msgid "Public: The List is visible to any subscribers publically when they visit manage subscription link/page"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:34
+msgid "Private: The List is visible to only subscribers of the list itself when they visit manage subscription link/page"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:43
+msgid "Public"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:49
+msgid "Private"
+msgstr ""
+
+#: app/lists/view/template-parts/create-lists.php:57
+msgid "Save"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:33
+#: app/lists/view/template-parts/list-lists.php:45
+msgid " "
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:34
+#: app/lists/view/template-parts/list-lists.php:46
+#: integrations/fluentform/actions/subscribe.php:46
+#: public/views/templates.php:173
+msgid "Name"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:35
+#: app/lists/view/template-parts/list-lists.php:47
+#: public/views/templates.php:177
+msgid "Type"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:36
+#: app/lists/view/template-parts/list-lists.php:48
+#: integrations/elementor/widgets/image-box/image-box.php:86
+#: integrations/elementor/widgets/image-box/image-box.php:342
+#: integrations/elementor/widgets/wc-description/wc-description.php:92
+msgid "Description"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:37
+#: app/lists/view/template-parts/list-lists.php:49
+#: app/subscribers/view/template-parts/create-subscribers.php:233
+#: integrations/fluentform/actions/subscribe.php:170
+#: integrations/ninja-form/actions/collect-lead.php:74
+#: integrations/pafe/actions/hooks.php:235
+#: integrations/wpforms/base.php:210
+msgid "Subscribed"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:38
+#: app/lists/view/template-parts/list-lists.php:50
+#: app/subscribers/view/template-parts/create-subscribers.php:235
+#: integrations/fluentform/actions/subscribe.php:172
+#: integrations/ninja-form/actions/collect-lead.php:76
+#: integrations/pafe/actions/hooks.php:237
+#: integrations/wpforms/base.php:212
+msgid "Unsubscribed"
+msgstr ""
+
+#: app/lists/view/template-parts/list-lists.php:39
+#: app/lists/view/template-parts/list-lists.php:51
+msgid "Total"
+msgstr ""
+
+#: app/settings/action.php:68
+msgid "Setting is updated."
+msgstr ""
+
+#: app/settings/action.php:71
+msgid "Setting is not updated due to no data changes."
+msgstr ""
+
+#: app/settings/base.php:44
+msgid "elemailer_page"
+msgstr ""
+
+#: app/settings/base.php:44
+msgid "Elemailer Page"
+msgstr ""
+
+#: app/settings/view/settings.php:3
+msgid "Elemailer Settings:"
+msgstr ""
+
+#: app/settings/view/settings.php:9
+msgid "Basic"
+msgstr ""
+
+#: app/settings/view/settings.php:10
+msgid "Sign-up Confirmation"
+msgstr ""
+
+#: app/settings/view/settings.php:11
+msgid "Send configuration"
+msgstr ""
+
+#: app/settings/view/settings.php:22
+msgid "Default sender - From"
+msgstr ""
+
+#: app/settings/view/settings.php:23
+msgid "These email addresses will be selected by default for each new email."
+msgstr ""
+
+#: app/settings/view/settings.php:37
+msgid "Enter your email Replay email address."
+msgstr ""
+
+#: app/settings/view/settings.php:52
+msgid "Manage Subscription page"
+msgstr ""
+
+#: app/settings/view/settings.php:53
+msgid "When your subscribers click the \"Manage subscription\" link, they will be directed to this page. Want to use a custom Subscription page? Use this shortcode [elemailer_manage_subscription_page] or Check out our "
+msgstr ""
+
+#: app/settings/view/settings.php:53
+#: app/settings/view/settings.php:210
+#: app/settings/view/settings.php:259
+msgid "Knowledge Base"
+msgstr ""
+
+#: app/settings/view/settings.php:53
+msgid "for instructions."
+msgstr ""
+
+#: app/settings/view/settings.php:59
+msgid "Select manage subscription page:"
+msgstr ""
+
+#: app/settings/view/settings.php:70
+#: app/settings/view/settings.php:95
+#: app/settings/view/settings.php:110
+#: app/settings/view/settings.php:223
+#: public/views/templates.php:229
+msgid "Preview"
+msgstr ""
+
+#: app/settings/view/settings.php:77
+msgid "Unsubscribe page"
+msgstr ""
+
+#: app/settings/view/settings.php:78
+msgid "When your subscribers click the \"Unsubscribe\" link, they will be directed to a confirmation page. After confirming, the success page will be shown. The Unsubscribe page must contain the [elemailer_unsubscribe_page] shortcode. "
+msgstr ""
+
+#: app/settings/view/settings.php:78
+msgid "Learn more about customizing these pages."
+msgstr ""
+
+#: app/settings/view/settings.php:84
+msgid "Action page:"
+msgstr ""
+
+#: app/settings/view/settings.php:99
+msgid "Success page:"
+msgstr ""
+
+#: app/settings/view/settings.php:117
+msgid "New subscriber notifications"
+msgstr ""
+
+#: app/settings/view/settings.php:118
+msgid "Enter the email address that should receive notifications when someone subscribes."
+msgstr ""
+
+#: app/settings/view/settings.php:128
+#: app/settings/view/settings.php:163
+#: app/settings/view/settings.php:272
+#: integrations/elementor/actions/hooks.php:437
+#: integrations/elementor/actions/hooks.php:473
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:122
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:163
+#: integrations/pafe/actions/hooks.php:170
+#: integrations/pafe/actions/hooks.php:259
+#: integrations/pafe/actions/hooks.php:288
+msgid "Yes"
+msgstr ""
+
+#: app/settings/view/settings.php:134
+#: app/settings/view/settings.php:169
+#: app/settings/view/settings.php:278
+#: integrations/elementor/actions/hooks.php:438
+#: integrations/elementor/actions/hooks.php:474
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:123
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:164
+#: integrations/pafe/actions/hooks.php:171
+#: integrations/pafe/actions/hooks.php:260
+#: integrations/pafe/actions/hooks.php:289
+msgid "No"
+msgstr ""
+
+#: app/settings/view/settings.php:156
+msgid "Enable sign-up confirmation"
+msgstr ""
+
+#: app/settings/view/settings.php:157
+msgid "If you enable this option, your subscribers will first receive a confirmation email after they subscribe. Once they confirm their subscription (via this email), they will be marked as 'confirmed' and will begin to receive your email newsletters. If this is enabled 'Welcome Email' created for new subscriber will not be sent. "
+msgstr ""
+
+#: app/settings/view/settings.php:157
+msgid "Read more about Double Opt-in confirmation."
+msgstr ""
+
+#: app/settings/view/settings.php:176
+msgid "Email subject"
+msgstr ""
+
+#: app/settings/view/settings.php:177
+msgid "Confirm your subscription to Elemailer"
+msgstr ""
+
+#: app/settings/view/settings.php:191
+msgid "Email content"
+msgstr ""
+
+#: app/settings/view/settings.php:203
+msgid "Don't forget to include:"
+msgstr ""
+
+#: app/settings/view/settings.php:203
+msgid "[activation_link]Confirm your subscription.[/activation_link]"
+msgstr ""
+
+#: app/settings/view/settings.php:208
+msgid "Confirmation page"
+msgstr ""
+
+#: app/settings/view/settings.php:209
+msgid "When subscribers click on the activation link, they will be redirected to this page. Want custom Confirmation page ? Use this shortcode [elemailer_opt_in_confirm_page] in that page."
+msgstr ""
+
+#: app/settings/view/settings.php:236
+msgid "Sending frequency"
+msgstr ""
+
+#: app/settings/view/settings.php:237
+msgid "Warning! You may break the terms of your web host or provider by sending more than the recommended emails per day. Contact your host if you want to send more."
+msgstr ""
+
+#: app/settings/view/settings.php:242
+msgid "Number of emails"
+msgstr ""
+
+#: app/settings/view/settings.php:244
+msgid "Per second"
+msgstr ""
+
+#: app/settings/view/settings.php:247
+msgid "If, Number of emails=20 & Per second=30, it means you will send 20 emails per 30 seconds == 40 emails per Minute == 2400 emails per Hour == 57600 emails per 24 Hours. So becareful and set this up according to your Hosting/SMTP/Email provider limit per minute/hour/day"
+msgstr ""
+
+#: app/settings/view/settings.php:257
+msgid "Advanced wp_mail Override method (BETA)"
+msgstr ""
+
+#: app/settings/view/settings.php:258
+msgid "Select if you want to enable wp_mail override method to be used with elemailer advanced shortcode system. This can enable you to use Elemailer with different forms/emails even if native integration is not added yet."
+msgstr ""
+
+#: app/settings/view/settings.php:290
+#: integrations/fluentform/actions/subscribe.php:41
+msgid "Save Settings"
+msgstr ""
+
+#: app/subscribers/action.php:120
+msgid "Invalid email given"
+msgstr ""
+
+#: app/subscribers/action.php:189
+msgid "Subscriber already exists in Database."
+msgstr ""
+
+#: app/subscribers/view/subscribers.php:9
+msgid "Subscribers:"
+msgstr ""
+
+#: app/subscribers/view/subscribers.php:11
+#: app/subscribers/view/template-parts/create-subscribers.php:118
+msgid "Import"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:84
+msgid "Fields Mapping"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:90
+#: app/subscribers/view/template-parts/create-subscribers.php:206
+#: app/subscribers/view/template-parts/list-subscribers.php:42
+#: app/subscribers/view/template-parts/list-subscribers.php:62
+#: integrations/wpforms/base.php:247
+msgid "First Name"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:101
+#: app/subscribers/view/template-parts/create-subscribers.php:212
+#: app/subscribers/view/template-parts/list-subscribers.php:43
+#: app/subscribers/view/template-parts/list-subscribers.php:63
+#: integrations/wpforms/base.php:264
+msgid "Last Name"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:148
+msgid "Done! %s new subscriber(s) added"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:153
+msgid "Select .CSV files only"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:154
+msgid "Please make sure the CSV file has three columns in format first name, last name, email. To know more check dummy template "
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:154
+msgid " here"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:156
+msgid "Existing emails are skipped during the import process"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:161
+msgid "Please make sure the email is valid and reachable as otherwise you will end up with bad reputation for bounced email."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:171
+msgid "Select List(s) wehere your subscribers should be added to. With list(s) you can easily segment your subscribers later on."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:174
+msgid "Which List(s) would you like to add the subscriber to ? If no List is selected no opt-in or welcome email will be sent."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:193
+msgid "Retain original Subscription Status for lists"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:225
+msgid "Choose a status for your subscriber."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:226
+msgid "No welcome email or Double opt-in email will be sent for imported subscribers."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:229
+msgid "Choose a status for your subscriber. Double opt-in email will be sent if enabled on Settings & status is unconfirmed, Welcome email will be sent if configured via Emails > Welcome Email when added but in this case, your double opt-in setting should be off."
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:234
+#: integrations/fluentform/actions/subscribe.php:171
+#: integrations/ninja-form/actions/collect-lead.php:75
+#: integrations/pafe/actions/hooks.php:236
+#: integrations/wpforms/base.php:211
+msgid "Unconfirmed"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:236
+#: integrations/fluentform/actions/subscribe.php:173
+#: integrations/ninja-form/actions/collect-lead.php:77
+#: integrations/pafe/actions/hooks.php:238
+#: integrations/wpforms/base.php:213
+msgid "Inactive"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:243
+msgid "Note: If you have configured <a target=\"_blank\" href=\"%s\">\"Welcome email\"</a> to be triggered when a Subscriber is added to a list, this subscriber will get it accordingly"
+msgstr ""
+
+#: app/subscribers/view/template-parts/create-subscribers.php:256
+msgid "save"
+msgstr ""
+
+#: app/subscribers/view/template-parts/list-subscribers.php:44
+#: app/subscribers/view/template-parts/list-subscribers.php:64
+msgid "List"
+msgstr ""
+
+#: app/subscribers/view/template-parts/list-subscribers.php:45
+#: app/subscribers/view/template-parts/list-subscribers.php:65
+msgid "List Status"
+msgstr ""
+
+#: app/subscribers/view/template-parts/list-subscribers.php:46
+#: app/subscribers/view/template-parts/list-subscribers.php:66
+msgid "Internal Status"
+msgstr ""
+
+#: app/subscribers/view/template-parts/list-subscribers.php:49
+msgid "This is the status that you set when you create a subscriber manually, import, add via forms for example & Double opt-in status. If a Subscriber is subscribed atleast in one list the status reflects it. This is independent from your lists subscription status. If a subscriber removes themselves from all of the lists the status will become Unsubscribed"
+msgstr ""
+
+#: core/global.php:444
+msgid "New Order"
+msgstr ""
+
+#: core/global.php:445
+msgid "Cancelled Order"
+msgstr ""
+
+#: core/global.php:446
+msgid "Failed Order"
+msgstr ""
+
+#: core/global.php:447
+msgid "Completed Order"
+msgstr ""
+
+#: core/global.php:448
+msgid "Onhold Order"
+msgstr ""
+
+#: core/global.php:449
+msgid "Refunded Order"
+msgstr ""
+
+#: core/global.php:450
+msgid "Processing Order"
+msgstr ""
+
+#: core/global.php:451
+msgid "Note"
+msgstr ""
+
+#: core/global.php:452
+msgid "Reset Password"
+msgstr ""
+
+#: core/global.php:453
+msgid "New Account"
+msgstr ""
+
+#: core/global.php:454
+msgid "Customer invoice/Order details- Paid"
+msgstr ""
+
+#: core/global.php:455
+msgid "Customer invoice/Order details- Unpaid"
+msgstr ""
+
+#: core/global.php:463
+msgid "New booking"
+msgstr ""
+
+#: core/global.php:464
+msgid "Booking Cancelled"
+msgstr ""
+
+#: core/global.php:465
+msgid "Customer Booking Cancelled"
+msgstr ""
+
+#: core/global.php:466
+msgid "Customer Booking Confirmed"
+msgstr ""
+
+#: core/global.php:467
+msgid "Customer Booking Notification"
+msgstr ""
+
+#: core/global.php:468
+msgid "Customer Booking Pending Confirmation"
+msgstr ""
+
+#: core/global.php:469
+msgid "Customer Booking Reminder"
+msgstr ""
+
+#: core/global.php:492
+msgid "Global (All Products)"
+msgstr ""
+
+#: core/global.php:493
+msgid "Specific Category"
+msgstr ""
+
+#: core/global.php:494
+msgid "Specific Product"
+msgstr ""
+
+#: integrations/elementor/actions/email-dynamic-tag.php:58
+#: public/views/shortcode-floating-icon.php:23
+msgid "+"
+msgstr ""
+
+#: integrations/elementor/actions/email-dynamic-tag.php:68
+msgid "You can use the placeholders. This will replace with actual order content data."
+msgstr ""
+
+#: integrations/elementor/actions/email-dynamic-tag.php:73
+msgid "Copy"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:290
+#: integrations/elementor/actions/hooks.php:853
+msgid "CSS Classes"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:292
+#: integrations/elementor/actions/hooks.php:856
+msgid "myclass myclass2"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:307
+msgid "<small style=\"color: white;font-size: 10px;\">Important: Margin, padding and many other CSS are not supported by Windows outlook also known as Mail Desktop app.</small>"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:435
+#: integrations/ninja-form/actions/hooks.php:57
+#: integrations/pafe/actions/hooks.php:257
+#: integrations/pafe/actions/hooks.php:286
+msgid "Use Elemailer Template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:447
+#: integrations/pafe/actions/hooks.php:269
+#: integrations/pafe/actions/hooks.php:298
+msgid "Choose Elemailer Template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:471
+msgid "Use Elemailer template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:483
+msgid "Select Elemailer template"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:564
+msgid "Elemailer Email Settings"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:581
+msgid "Email Body Background"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:619
+msgid "Section default padding"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:621
+msgid "The default value is set to 10px if left empty. Set all to 0 if you do not want section to section padding"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:640
+msgid "Email Custom CSS"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:641
+msgid "Warning: It might seem easy enough to add any css and view that on your email template but please bear in mind the css you add might not work in some Email Clients due to not being supported. Infact the CSS support is very limited in most Clients. So use custom css at your own risk"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:662
+msgid "Export"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:675
+msgid "<b style=\"color:orange; font-size:13px;\">Send Test Email</b><br><br>You can send test email to your real email using this and see how the design looks in real emails without sending it to your visitors first. Please keep in mind any dynamic content will not be rendered in email such as shortcodes, WooCommerce order data"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:684
+msgid "Enter valid email"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:696
+msgid "Send"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:704
+msgid "Current template ID"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:740
+msgid "Email Settings"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:769
+#: integrations/elementor/widgets/button/button.php:403
+#: integrations/elementor/widgets/divider/divider.php:169
+#: integrations/elementor/widgets/footer/footer.php:374
+#: integrations/elementor/widgets/heading/heading.php:268
+#: integrations/elementor/widgets/html/html.php:112
+#: integrations/elementor/widgets/image-box/image-box.php:452
+#: integrations/elementor/widgets/image/image.php:198
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:696
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:654
+#: integrations/elementor/widgets/shortcode/shortcode.php:290
+#: integrations/elementor/widgets/social/social.php:302
+#: integrations/elementor/widgets/spacer/spacer.php:115
+#: integrations/elementor/widgets/text-editor/text-editor.php:175
+#: integrations/elementor/widgets/video/video.php:213
+msgid "Background Type"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:775
+#: integrations/elementor/widgets/button/button.php:287
+#: integrations/elementor/widgets/button/button.php:328
+#: integrations/elementor/widgets/button/button.php:407
+#: integrations/elementor/widgets/divider/divider.php:80
+#: integrations/elementor/widgets/divider/divider.php:173
+#: integrations/elementor/widgets/footer/footer.php:264
+#: integrations/elementor/widgets/footer/footer.php:378
+#: integrations/elementor/widgets/heading/heading.php:126
+#: integrations/elementor/widgets/heading/heading.php:272
+#: integrations/elementor/widgets/html/html.php:116
+#: integrations/elementor/widgets/image-box/image-box.php:228
+#: integrations/elementor/widgets/image-box/image-box.php:350
+#: integrations/elementor/widgets/image-box/image-box.php:456
+#: integrations/elementor/widgets/image/image.php:202
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:374
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:482
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:592
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:700
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:330
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:440
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:550
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:658
+#: integrations/elementor/widgets/shortcode/shortcode.php:181
+#: integrations/elementor/widgets/shortcode/shortcode.php:225
+#: integrations/elementor/widgets/shortcode/shortcode.php:294
+#: integrations/elementor/widgets/social/social.php:306
+#: integrations/elementor/widgets/spacer/spacer.php:119
+#: integrations/elementor/widgets/text-editor/text-editor.php:179
+#: integrations/elementor/widgets/video/video.php:217
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:233
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:304
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:370
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:471
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:582
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:640
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:131
+#: integrations/elementor/widgets/wc-description/wc-description.php:140
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:489
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:808
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:967
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1050
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:140
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:153
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:231
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:301
+msgid "Color"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:776
+#: integrations/elementor/widgets/button/button.php:408
+#: integrations/elementor/widgets/divider/divider.php:174
+#: integrations/elementor/widgets/footer/footer.php:379
+#: integrations/elementor/widgets/heading/heading.php:273
+#: integrations/elementor/widgets/html/html.php:117
+#: integrations/elementor/widgets/image-box/image-box.php:147
+#: integrations/elementor/widgets/image-box/image-box.php:457
+#: integrations/elementor/widgets/image/image.php:27
+#: integrations/elementor/widgets/image/image.php:203
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:701
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:659
+#: integrations/elementor/widgets/shortcode/shortcode.php:295
+#: integrations/elementor/widgets/social/social.php:307
+#: integrations/elementor/widgets/spacer/spacer.php:120
+#: integrations/elementor/widgets/text-editor/text-editor.php:180
+#: integrations/elementor/widgets/video/video.php:218
+msgid "Image"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:784
+#: integrations/elementor/widgets/button/button.php:416
+#: integrations/elementor/widgets/divider/divider.php:182
+#: integrations/elementor/widgets/footer/footer.php:387
+#: integrations/elementor/widgets/heading/heading.php:281
+#: integrations/elementor/widgets/html/html.php:125
+#: integrations/elementor/widgets/image-box/image-box.php:465
+#: integrations/elementor/widgets/image/image.php:211
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:709
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:667
+#: integrations/elementor/widgets/shortcode/shortcode.php:303
+#: integrations/elementor/widgets/social/social.php:315
+#: integrations/elementor/widgets/spacer/spacer.php:128
+#: integrations/elementor/widgets/text-editor/text-editor.php:188
+#: integrations/elementor/widgets/video/video.php:226
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:244
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:317
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:213
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:280
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:381
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:482
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:593
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:651
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:142
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:191
+#: integrations/elementor/widgets/wc-header/wc-header.php:194
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:280
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:374
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:500
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:819
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:978
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1061
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:299
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:164
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:242
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:314
+msgid "Background Color"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:807
+#: integrations/elementor/widgets/button/button.php:433
+#: integrations/elementor/widgets/divider/divider.php:199
+#: integrations/elementor/widgets/footer/footer.php:404
+#: integrations/elementor/widgets/heading/heading.php:298
+#: integrations/elementor/widgets/html/html.php:142
+#: integrations/elementor/widgets/image-box/image-box.php:64
+#: integrations/elementor/widgets/image-box/image-box.php:482
+#: integrations/elementor/widgets/image/image.php:64
+#: integrations/elementor/widgets/image/image.php:228
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:726
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:684
+#: integrations/elementor/widgets/shortcode/shortcode.php:320
+#: integrations/elementor/widgets/social/social.php:332
+#: integrations/elementor/widgets/spacer/spacer.php:145
+#: integrations/elementor/widgets/text-editor/text-editor.php:205
+#: integrations/elementor/widgets/video/video.php:80
+#: integrations/elementor/widgets/video/video.php:243
+msgid "Choose Image"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:826
+msgid "Outlook background height"
+msgstr ""
+
+#: integrations/elementor/actions/hooks.php:829
+msgid "This will be used for your outlook windows desktop app email image rendering as outlook needs a fixed height for background image to work in px"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:46
+#: integrations/elementor/actions/subscriber-handler.php:119
+#: integrations/pafe/actions/hooks.php:161
+msgid "Elemailer Subscribers"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:129
+msgid "Subscriber List"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:140
+#: integrations/ninja-form/actions/collect-lead.php:90
+msgid "Email Field ID"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:149
+#: integrations/pafe/actions/hooks.php:208
+msgid "First Name Field ID"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:159
+#: integrations/pafe/actions/hooks.php:219
+msgid "Last Name Field ID"
+msgstr ""
+
+#: integrations/elementor/actions/subscriber-handler.php:171
+msgid "<a target=\"_blank\" href=\"https://elemailer.com/help/add-subscriber-through-elementor-pro-form-widget/\">Need help?</a>"
+msgstr ""
+
+#. translators: %s: Site title.
+#: integrations/elementor/actions/void-email.php:60
+msgid "New message from \"%s\""
+msgstr ""
+
+#: integrations/elementor/actions/void-email2.php:27
+msgid "Email 2"
+msgstr ""
+
+#: integrations/elementor/base.php:76
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: integrations/elementor/base.php:79
+msgid "Install WooCommerce"
+msgstr ""
+
+#: integrations/elementor/base.php:89
+msgid "If you plan to design WooCommerce emails with Elemailer, please install and activate WooCommerce. Otherwise Ignore this."
+msgstr ""
+
+#: integrations/elementor/base.php:108
+msgid "Activate Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:111
+msgid "Install Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:121
+msgid "Elemailer needs Elementor version %1$s+ for letting you design your emails"
+msgstr ""
+
+#: integrations/elementor/base.php:135
+msgid "Update Elementor"
+msgstr ""
+
+#: integrations/elementor/base.php:144
+msgid "Elemailer needs Elementor version %1$s+ for working it, lower version is running. Please update."
+msgstr ""
+
+#: integrations/elementor/base.php:165
+msgid "Activate Elementor pro"
+msgstr ""
+
+#: integrations/elementor/base.php:169
+msgid "Install Elementor pro"
+msgstr ""
+
+#: integrations/elementor/base.php:181
+msgid "To use Elemailer for email desigon of Elementor pro Forms, Elementor Pro %1$s+ should be installed & activated. Ignore if you plan to use Elemailer with other Form plugin(s)."
+msgstr ""
+
+#: integrations/elementor/email.php:167
+msgid "HTML template"
+msgstr ""
+
+#: integrations/elementor/email.php:168
+msgid "You are using Elemailer Email template for this."
+msgstr ""
+
+#. translators: %s are link.
+#: integrations/elementor/library.php:102
+msgid "This is a premium template. you can purchase it from <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: integrations/elementor/library.php:107
+msgid "Elemailer Templates"
+msgstr ""
+
+#: integrations/elementor/library.php:112
+#: public/views/templates.php:86
+msgid "Template"
+msgstr ""
+
+#: integrations/elementor/library.php:113
+msgid "Block"
+msgstr ""
+
+#: integrations/elementor/library.php:114
+msgid "Dismiss"
+msgstr ""
+
+#: integrations/elementor/library.php:115
+msgid "Copied"
+msgstr ""
+
+#: integrations/elementor/library.php:116
+msgid "Install Required Plugins"
+msgstr ""
+
+#: integrations/elementor/library.php:120
+msgid "Activate license!"
+msgstr ""
+
+#: integrations/elementor/library.php:121
+msgid "Template library refreshed!"
+msgstr ""
+
+#: integrations/elementor/library.php:122
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: integrations/elementor/library.php:123
+msgid "Save Your Template to Email Library"
+msgstr ""
+
+#: integrations/elementor/library.php:124
+msgid "Your designs will be available for reuse on any email template"
+msgstr ""
+
+#: integrations/elementor/library.php:239
+#: integrations/elementor/library.php:254
+#: integrations/elementor/library.php:300
+#: integrations/elementor/library.php:319
+#: integrations/elementor/library.php:348
+#: integrations/elementor/library.php:375
+#: integrations/elementor/library.php:419
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#: integrations/elementor/library.php:381
+#: integrations/elementor/library.php:387
+msgid "Invalid data."
+msgstr ""
+
+#: integrations/elementor/library.php:393
+#: integrations/elementor/library.php:438
+msgid "Invalid Post Meta"
+msgstr ""
+
+#: integrations/elementor/library.php:400
+#: integrations/elementor/library.php:445
+msgid "Invalid Post ID or Elementor Meta"
+msgstr ""
+
+#: integrations/elementor/library.php:425
+msgid "Invalid API URL."
+msgstr ""
+
+#: integrations/elementor/widgets/base.php:189
+msgid "Elemailer Email Builder Fields"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:28
+#: integrations/elementor/widgets/button/button.php:58
+msgid "Button"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:66
+#: integrations/elementor/widgets/footer/footer.php:56
+#: integrations/elementor/widgets/footer/footer.php:127
+#: integrations/elementor/widgets/footer/footer.php:155
+#: integrations/elementor/widgets/social/social.php:115
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:102
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:102
+msgid "Text"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:68
+#: integrations/elementor/widgets/button/button.php:69
+msgid "Click here"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:76
+#: integrations/elementor/widgets/heading/heading.php:73
+#: integrations/elementor/widgets/image/image.php:133
+#: integrations/elementor/widgets/social/social.php:99
+msgid "Link"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:79
+#: integrations/elementor/widgets/image/image.php:148
+#: integrations/elementor/widgets/social/social.php:101
+#: integrations/elementor/widgets/video/video.php:96
+#: integrations/elementor/widgets/video/video.php:116
+#: integrations/elementor/widgets/video/video.php:136
+#: integrations/elementor/widgets/video/video.php:156
+msgid "https://your-link.com"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:94
+#: integrations/elementor/widgets/footer/footer.php:73
+#: integrations/elementor/widgets/heading/heading.php:90
+#: integrations/elementor/widgets/image-box/image-box.php:121
+#: integrations/elementor/widgets/image/image.php:109
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:338
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:295
+#: integrations/elementor/widgets/shortcode/shortcode.php:125
+#: integrations/elementor/widgets/social/social.php:174
+#: integrations/elementor/widgets/text-editor/text-editor.php:116
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:137
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:178
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:175
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:343
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:444
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:555
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:613
+#: integrations/elementor/widgets/wc-description/wc-description.php:104
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:124
+#: integrations/elementor/widgets/wc-header/wc-header.php:124
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:242
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:462
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:588
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:940
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1023
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:104
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:137
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:177
+msgid "Alignment"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:98
+#: integrations/elementor/widgets/footer/footer.php:77
+#: integrations/elementor/widgets/heading/heading.php:94
+#: integrations/elementor/widgets/image-box/image-box.php:101
+#: integrations/elementor/widgets/image-box/image-box.php:125
+#: integrations/elementor/widgets/image/image.php:113
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:196
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:342
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:153
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:299
+#: integrations/elementor/widgets/shortcode/shortcode.php:71
+#: integrations/elementor/widgets/shortcode/shortcode.php:129
+#: integrations/elementor/widgets/social/social.php:178
+#: integrations/elementor/widgets/text-editor/text-editor.php:120
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:141
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:182
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:179
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:347
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:448
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:559
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:617
+#: integrations/elementor/widgets/wc-description/wc-description.php:108
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:128
+#: integrations/elementor/widgets/wc-header/wc-header.php:128
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:246
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:466
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:592
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:620
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:944
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1027
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:108
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:141
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:181
+msgid "Left"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:102
+#: integrations/elementor/widgets/footer/footer.php:81
+#: integrations/elementor/widgets/heading/heading.php:98
+#: integrations/elementor/widgets/image-box/image-box.php:105
+#: integrations/elementor/widgets/image-box/image-box.php:129
+#: integrations/elementor/widgets/image/image.php:117
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:346
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:303
+#: integrations/elementor/widgets/shortcode/shortcode.php:133
+#: integrations/elementor/widgets/social/social.php:182
+#: integrations/elementor/widgets/text-editor/text-editor.php:124
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:145
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:186
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:183
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:351
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:452
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:563
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:621
+#: integrations/elementor/widgets/wc-description/wc-description.php:112
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:132
+#: integrations/elementor/widgets/wc-header/wc-header.php:132
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:250
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:470
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:596
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:624
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:948
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1031
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:112
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:145
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:185
+msgid "Center"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:106
+#: integrations/elementor/widgets/footer/footer.php:85
+#: integrations/elementor/widgets/heading/heading.php:102
+#: integrations/elementor/widgets/image-box/image-box.php:109
+#: integrations/elementor/widgets/image-box/image-box.php:133
+#: integrations/elementor/widgets/image/image.php:121
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:197
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:350
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:154
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:307
+#: integrations/elementor/widgets/shortcode/shortcode.php:137
+#: integrations/elementor/widgets/social/social.php:186
+#: integrations/elementor/widgets/text-editor/text-editor.php:128
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:149
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:190
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:187
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:355
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:456
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:567
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:625
+#: integrations/elementor/widgets/wc-description/wc-description.php:116
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:136
+#: integrations/elementor/widgets/wc-header/wc-header.php:136
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:254
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:474
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:600
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:628
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:952
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1035
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:116
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:149
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:189
+msgid "Right"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:110
+msgid "Justified"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:124
+msgid "Button Style"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:132
+#: integrations/elementor/widgets/button/button.php:394
+#: integrations/elementor/widgets/divider/divider.php:160
+#: integrations/elementor/widgets/footer/footer.php:365
+#: integrations/elementor/widgets/heading/heading.php:259
+#: integrations/elementor/widgets/html/html.php:103
+#: integrations/elementor/widgets/image-box/image-box.php:443
+#: integrations/elementor/widgets/image/image.php:189
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:687
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:645
+#: integrations/elementor/widgets/shortcode/shortcode.php:281
+#: integrations/elementor/widgets/social/social.php:293
+#: integrations/elementor/widgets/spacer/spacer.php:106
+#: integrations/elementor/widgets/text-editor/text-editor.php:166
+#: integrations/elementor/widgets/video/video.php:204
+msgid "Padding (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:149
+#: integrations/elementor/widgets/image/image.php:95
+#: integrations/elementor/widgets/wc-description/wc-description.php:223
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:239
+#: integrations/elementor/widgets/wc-header/wc-header.php:263
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:224
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:320
+msgid "Border Radius"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:163
+msgid "Note: Outlook ( specially older windows outlook app ) has issue with button rendering and with few controls for this widget. The below contol tries to solve some of them but it may not work as you expect it to in the end though. In our tests we found things working fine without these controls in newer versions of the app."
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:173
+msgid "Outlook Height(px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:185
+msgid "Outlook Width(px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:197
+msgid "Outlook border/Arc radius(%)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:199
+msgid "End of outlook controls. Outlook controls will not reflect anything in preview. You need to check in your outlook client (mainly windows outlook app) itself to see how it looks if you want."
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:218
+#: integrations/elementor/widgets/footer/footer.php:202
+#: integrations/elementor/widgets/footer/footer.php:282
+#: integrations/elementor/widgets/heading/heading.php:147
+#: integrations/elementor/widgets/image-box/image-box.php:243
+#: integrations/elementor/widgets/image-box/image-box.php:365
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:390
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:498
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:608
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:346
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:456
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:565
+#: integrations/elementor/widgets/wc-description/wc-description.php:164
+msgid "(Deprecated)Font Size (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:223
+#: integrations/elementor/widgets/heading/heading.php:148
+#: integrations/elementor/widgets/heading/heading.php:177
+#: integrations/elementor/widgets/image-box/image-box.php:251
+#: integrations/elementor/widgets/image-box/image-box.php:369
+#: integrations/elementor/widgets/wc-header/wc-header.php:210
+msgid "Please use the Typography control below as this will be remove in the future"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:262
+#: integrations/elementor/widgets/footer/footer.php:244
+#: integrations/elementor/widgets/footer/footer.php:324
+#: integrations/elementor/widgets/heading/heading.php:218
+#: integrations/elementor/widgets/image-box/image-box.php:408
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:463
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:573
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:652
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:421
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:531
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:610
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:122
+#: integrations/elementor/widgets/wc-description/wc-description.php:206
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:221
+#: integrations/elementor/widgets/wc-header/wc-header.php:245
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:230
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:363
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:452
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:578
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:930
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1013
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:206
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:337
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:240
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:288
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:144
+msgid "These are Websafe fonts with fallback font-family in place. But for the other property below do check in your mail clinets if they work as CSS support is limited in Mail Clients"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:303
+#: integrations/elementor/widgets/button/button.php:346
+#: integrations/elementor/widgets/wc-description/wc-description.php:153
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:152
+msgid "Background"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:370
+#: integrations/elementor/widgets/divider/divider.php:143
+#: integrations/elementor/widgets/footer/footer.php:341
+#: integrations/elementor/widgets/heading/heading.php:235
+#: integrations/elementor/widgets/html/html.php:86
+#: integrations/elementor/widgets/image-box/image-box.php:419
+#: integrations/elementor/widgets/image/image.php:165
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:663
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:621
+#: integrations/elementor/widgets/shortcode/shortcode.php:264
+#: integrations/elementor/widgets/social/social.php:269
+#: integrations/elementor/widgets/spacer/spacer.php:89
+#: integrations/elementor/widgets/text-editor/text-editor.php:142
+#: integrations/elementor/widgets/video/video.php:180
+msgid "Advanced Style"
+msgstr ""
+
+#: integrations/elementor/widgets/button/button.php:378
+#: integrations/elementor/widgets/divider/divider.php:151
+#: integrations/elementor/widgets/footer/footer.php:349
+#: integrations/elementor/widgets/heading/heading.php:243
+#: integrations/elementor/widgets/html/html.php:94
+#: integrations/elementor/widgets/image-box/image-box.php:427
+#: integrations/elementor/widgets/image/image.php:173
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:671
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:629
+#: integrations/elementor/widgets/shortcode/shortcode.php:272
+#: integrations/elementor/widgets/social/social.php:277
+#: integrations/elementor/widgets/spacer/spacer.php:97
+#: integrations/elementor/widgets/text-editor/text-editor.php:150
+#: integrations/elementor/widgets/video/video.php:188
+msgid "Margin (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:28
+#: integrations/elementor/widgets/divider/divider.php:57
+msgid "Divider"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:64
+msgid "Divider Style"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:68
+msgid "Solid"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:69
+msgid "Dashed"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:70
+msgid "Dotted"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:71
+msgid "Double"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:97
+msgid "Width (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/divider/divider.php:119
+msgid "Gap (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:27
+msgid "Footer"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:63
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:169
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:281
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:169
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:279
+msgid "Address"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:65
+msgid "Enter your addrress"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:66
+msgid "866 2nd Ave 2nd floor, New York, NY 10017, United States"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:99
+msgid "Subscription"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:108
+msgid "Please keep in mind this will only work on applicable places. For example this will not work in a Welcome email that is set with trigger for user registration or WooCommerce emails since it is not relevant."
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:116
+msgid "Show Unsubscribe"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:118
+#: integrations/elementor/widgets/footer/footer.php:146
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:181
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:255
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:274
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:308
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:138
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:212
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:231
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:265
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:93
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:97
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:97
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:122
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:93
+msgid "Show"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:119
+#: integrations/elementor/widgets/footer/footer.php:147
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:182
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:256
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:275
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:309
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:139
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:213
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:232
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:266
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:94
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:98
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:98
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:123
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:94
+msgid "Hide"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:130
+#: integrations/elementor/widgets/footer/footer.php:158
+msgid "Text Here"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:144
+msgid "Show Manage Sbscription"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:159
+#: integrations/elementor/widgets/footer/footer.php:256
+msgid "Manage Subscription"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:177
+msgid "Text Area"
+msgstr ""
+
+#: integrations/elementor/widgets/footer/footer.php:187
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:202
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:269
+msgid "Text Color"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:27
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:87
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:137
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:546
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:87
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:178
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:906
+msgid "Heading"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:56
+#: integrations/elementor/widgets/heading/heading.php:63
+#: integrations/elementor/widgets/image-box/image-box.php:75
+#: integrations/elementor/widgets/image-box/image-box.php:220
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:253
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:366
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:210
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:322
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:83
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:207
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:83
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:206
+msgid "Title"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:65
+#: integrations/elementor/widgets/image-box/image-box.php:78
+msgid "Enter your title"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:66
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:116
+msgid "Title Style"
+msgstr ""
+
+#: integrations/elementor/widgets/heading/heading.php:176
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:419
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:528
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:376
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:486
+msgid "(Deprecated)Line Height (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/html/html.php:28
+msgid "HTML"
+msgstr ""
+
+#: integrations/elementor/widgets/html/html.php:58
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:58
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:53
+#: integrations/elementor/widgets/shortcode/shortcode.php:58
+#: integrations/elementor/widgets/shortcode/shortcode.php:217
+#: integrations/elementor/widgets/text-editor/text-editor.php:58
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:83
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:92
+#: integrations/elementor/widgets/wc-header/wc-header.php:92
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:83
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:105
+msgid "Content"
+msgstr ""
+
+#: integrations/elementor/widgets/html/html.php:66
+msgid "Custom HTML"
+msgstr ""
+
+#: integrations/elementor/widgets/html/html.php:76
+msgid "Use any custom HTML code you would like to have in your email. Please make sure you check that the HTML/CSS you use will be supported by your desired email clients. Use at your own risk"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:28
+msgid "Image Box"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:57
+#: integrations/elementor/widgets/image/image.php:57
+msgid "Image Content"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:79
+msgid "Image Title"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:88
+msgid "Enter your description"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:89
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo tellus vitae cursus."
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:96
+msgid "Image Position"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:155
+#: integrations/elementor/widgets/image/image.php:75
+msgid "Width (%)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:176
+msgid "Border Radius (%)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:197
+msgid "Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:286
+msgid "test..These are Websafe fonts with fallback font-family in place. But for the other property below do check in your mail clinets if they work as CSS support is limited in Mail Clients"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:298
+msgid "Top Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image-box/image-box.php:319
+msgid "Bottom Spacing (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/image/image.php:97
+msgid "Border-radius property is not supported by all platform ( example: Windows outlook )"
+msgstr ""
+
+#: integrations/elementor/widgets/image/image.php:138
+#: integrations/elementor/widgets/image/image.php:146
+msgid "Custom URL"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:28
+msgid "Latest Posts"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:66
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:61
+msgid "Post type"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:77
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:71
+msgid "Select Taxonomy"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:86
+msgid "Select Terms (usually categories/tags) * Must Select Taxonomy First"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:102
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:103
+#: plugin.php:525
+#: plugin.php:526
+msgid "Settings"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:110
+msgid "Posts per page"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:125
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:111
+msgid "Posts Per Row"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:140
+msgid "Order"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:153
+msgid "Order By"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:171
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:128
+#: integrations/elementor/widgets/wc-description/wc-description.php:84
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:84
+#: integrations/elementor/widgets/wc-header/wc-header.php:84
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:84
+msgid "Layout"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:179
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:136
+msgid "Display Thumbnail"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:191
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:148
+msgid "Image position"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:195
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:152
+#: integrations/elementor/widgets/shortcode/shortcode.php:70
+msgid "Top"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:210
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:167
+msgid "Image size"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:223
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:180
+msgid "Width(%)"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:272
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:474
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:229
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:432
+msgid "Excerpt"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:284
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:241
+msgid "Excerpt Length"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:306
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:584
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:263
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:542
+msgid "Read More"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:318
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:275
+msgid "Read More Text"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:320
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:277
+msgid "Read More »"
+msgstr ""
+
+#: integrations/elementor/widgets/latest-posts/latest-posts.php:321
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:278
+msgid "Type your read more text here"
+msgstr ""
+
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:23
+msgid "Selected Posts"
+msgstr ""
+
+#: integrations/elementor/widgets/selected-posts/selected-posts.php:86
+msgid "Post select"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:66
+msgid "Label position"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:80
+#: integrations/elementor/widgets/shortcode/shortcode.php:151
+msgid "Label"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:82
+msgid "Label: "
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:113
+msgid "Enter Supported shortcode here"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:162
+msgid "Spacing"
+msgstr ""
+
+#: integrations/elementor/widgets/shortcode/shortcode.php:196
+#: integrations/elementor/widgets/shortcode/shortcode.php:240
+msgid "Font Size (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:27
+#: integrations/elementor/widgets/social/social.php:57
+msgid "Social"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:66
+msgid "Select social media"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:70
+#: integrations/elementor/widgets/social/social.php:132
+msgid "Facebook"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:71
+#: integrations/elementor/widgets/social/social.php:139
+msgid "Twitter"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:72
+#: integrations/elementor/widgets/social/social.php:146
+msgid "LinkedIn"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:73
+#: integrations/elementor/widgets/video/video.php:70
+msgid "Vimeo"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:74
+msgid "Youtube"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:75
+msgid "Dribbble"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:76
+msgid "Flicker"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:77
+msgid "Forward To Friend"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:78
+msgid "Github"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:79
+msgid "Houzz"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:80
+msgid "Instagram"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:81
+msgid "Website"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:82
+msgid "Medium"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:83
+msgid "Pinterest"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:84
+msgid "Reddit"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:85
+msgid "RSS"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:86
+msgid "SnapChat"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:87
+msgid "Soundcloud"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:88
+msgid "Spotify"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:89
+msgid "Tumblr"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:90
+msgid "Vine"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:91
+msgid "VK"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:113
+msgid "Social name"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:116
+msgid "Type your social media name here"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:123
+msgid "Socials List"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:128
+msgid "facebook"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:130
+msgid "https://facebook.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:135
+msgid "twitter"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:137
+msgid "https://twitter.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:142
+msgid "linkedin"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:144
+msgid "https://linkedin.com"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:156
+msgid "Icon style"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:160
+msgid "Solid Color"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:161
+msgid "Solid Dark"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:162
+msgid "Solid Light"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:163
+msgid "OutLine Color"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:164
+msgid "OutLine Dark"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:165
+msgid "OutLine Light"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:167
+msgid "Use background to see better output for \"Solid Light\" and \"OutLine Light\""
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:200
+msgid "Icon"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:208
+msgid "Size (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:227
+msgid "Horizontal Space (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/social/social.php:247
+msgid "Vertical Space (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/spacer/spacer.php:28
+#: integrations/elementor/widgets/spacer/spacer.php:57
+msgid "Spacer"
+msgstr ""
+
+#: integrations/elementor/widgets/spacer/spacer.php:65
+msgid "Height (px)"
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:28
+#: integrations/elementor/widgets/text-editor/text-editor.php:66
+msgid "Text Editor"
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:68
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:78
+#: integrations/elementor/widgets/wc-description/wc-description.php:132
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:152
+#: integrations/elementor/widgets/wc-header/wc-header.php:153
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:132
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:169
+msgid "Style"
+msgstr ""
+
+#: integrations/elementor/widgets/text-editor/text-editor.php:101
+msgid "This is applied to the wrapper and p tag. These are Websafe fonts with fallback font-family in place. But for the other property below do check in your mail clinets if they work as CSS support is limited in Mail Clients"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:28
+msgid "Video"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:58
+msgid "Video Thumbnail"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:65
+msgid "Source"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:69
+msgid "YouTube"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:71
+msgid "Dailymotion"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:72
+msgid "Self Hosted"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:94
+#: integrations/elementor/widgets/video/video.php:114
+#: integrations/elementor/widgets/video/video.php:134
+#: integrations/elementor/widgets/video/video.php:154
+msgid "Video Url"
+msgstr ""
+
+#: integrations/elementor/widgets/video/video.php:168
+msgid "Thumbnail will auto generate from the video source"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:34
+msgid "WooCommerce Billing Addresses"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:91
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:91
+msgid "Show/Hide Title"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:104
+msgid "Billing Address"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:117
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:104
+#: integrations/elementor/widgets/wc-header/wc-header.php:104
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:117
+msgid "HTML Tag"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:121
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:108
+#: integrations/elementor/widgets/wc-header/wc-header.php:108
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:121
+msgid "H1"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:122
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:109
+#: integrations/elementor/widgets/wc-header/wc-header.php:109
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:122
+msgid "H2"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:123
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:110
+#: integrations/elementor/widgets/wc-header/wc-header.php:110
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:123
+msgid "H3"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:124
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:111
+#: integrations/elementor/widgets/wc-header/wc-header.php:111
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:124
+msgid "H4"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:125
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:112
+#: integrations/elementor/widgets/wc-header/wc-header.php:112
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:125
+msgid "H5"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:126
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:113
+#: integrations/elementor/widgets/wc-header/wc-header.php:113
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:126
+msgid "H6"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:218
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:289
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:144
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:216
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:286
+msgid "Font Size"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:255
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:328
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:224
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:418
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:520
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:689
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:153
+#: integrations/elementor/widgets/wc-description/wc-description.php:235
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:263
+#: integrations/elementor/widgets/wc-header/wc-header.php:295
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:291
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:537
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:857
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1099
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:247
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:352
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:175
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:253
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:325
+msgid "Padding"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:267
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:340
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:236
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:317
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:165
+#: integrations/elementor/widgets/wc-description/wc-description.php:247
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:251
+#: integrations/elementor/widgets/wc-header/wc-header.php:275
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:303
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:411
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:259
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:332
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:187
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:265
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:337
+msgid "Margin"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-billing-address/wc-billing-address.php:382
+msgid "N/A"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:35
+msgid "Booking Item Details"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:95
+msgid "Show Table Title"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:112
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:153
+msgid "Manage Hooks"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:120
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:161
+msgid "Enable Hooks"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:126
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:167
+msgid "Enabling this will allow other plugins to add actions to the available hook tags in email templates."
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:253
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:320
+msgid "Table"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:261
+msgid "Width"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:292
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:393
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:495
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:663
+#: integrations/elementor/widgets/wc-description/wc-description.php:215
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:231
+#: integrations/elementor/widgets/wc-header/wc-header.php:255
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:386
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:512
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:832
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1073
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:216
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:312
+msgid "Border"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:335
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:429
+msgid "Table Header"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:436
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:555
+msgid "Table Body"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:538
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:898
+msgid "Table Footer"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:604
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:989
+msgid "Body"
+msgstr ""
+
+#. translators: 1: billing first and last name
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:741
+msgid "A new booking has been made by %s. The details of this booking are as follows:"
+msgstr ""
+
+#. translators: %s: Order ID.
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:762
+msgid "[New Booking #%s]"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:769
+msgid "Booked Product"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:773
+msgid "Booking ID"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:783
+msgid "Booking Type"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:788
+msgid "Booking Start Date"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:792
+msgid "Booking End Date"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:797
+msgid "Time Zone"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-booking-item-details/wc-booking-item-details.php:808
+msgid "Person(s)"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:34
+msgid "WooCommerce Customer Notes"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:91
+#: integrations/elementor/widgets/wc-header/wc-header.php:206
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:163
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:113
+msgid "(Deprecated)Font Size"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:196
+msgid "Note:"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-customer-notes/wc-customer-notes.php:206
+msgid "This is a sample order note left by the Customer. It will be replaced in email."
+msgstr ""
+
+#: integrations/elementor/widgets/wc-description/wc-description.php:35
+msgid "WooCommerce Order Description"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-description/wc-description.php:94
+msgid "Hi, <br><br> A new order has been placed with order id: %%order_id%% <br><br> Customer name: %%billing_first_name%% %%billing_last_name%%"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-description/wc-description.php:95
+msgid "Type your description here"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:35
+msgid "WooCommerce Footer"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:94
+msgid "Email Footer"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:95
+#: integrations/elementor/widgets/wc-header/wc-header.php:95
+msgid "Type your title here"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:114
+#: integrations/elementor/widgets/wc-header/wc-header.php:114
+msgid "P"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:115
+#: integrations/elementor/widgets/wc-header/wc-header.php:115
+msgid "Div"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:160
+#: integrations/elementor/widgets/wc-header/wc-header.php:161
+msgid "Display"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-footer/wc-footer.php:176
+#: integrations/elementor/widgets/wc-header/wc-header.php:178
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:177
+msgid "Content Color"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-header/wc-header.php:35
+msgid "WooCommerce Header"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-header/wc-header.php:94
+msgid "Order "
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:35
+msgid "WooCommerce Item Details"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:95
+msgid "Show Table Heading"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:112
+msgid "Product Image"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:120
+msgid "Show Product Image"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:186
+msgid "Font Size (Deprecated)"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:191
+msgid "This option is Deprecated, Use Typography option BELOW since this will be removed in future. Please remove the value that you have set here and leave it blank"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:328
+msgid "Width %"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:616
+msgid "Image Column Alignment"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:644
+msgid "Image Dimension"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:646
+msgid "Image size px in CSS."
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:661
+msgid "Image Padding"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:674
+msgid "Image margin"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:690
+msgid "Image Background Color"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:702
+msgid "1st Column Width"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:729
+msgid "2nd Column Width"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:755
+msgid "3rd Column Width"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:781
+msgid "4th Column Width"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:871
+msgid "Row Gap"
+msgstr ""
+
+#. translators: %s: Order ID.
+#: integrations/elementor/widgets/wc-item-details/wc-item-details.php:1144
+msgid "[Order #%s]"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:35
+msgid "WooCommerce New Account"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:92
+msgid "Detail"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:94
+msgid "<p>Thanks for creating an account on WP Test Site. Your username is %%customer_user_name%%. You can access your account area to view orders, change your password, and more at: %%site_url%%.<p> <p><a href=\"%%set_password_url%%\">Click here to set your new password.</a><p>"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:95
+msgid "Type your details here"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:272
+msgid "Link Color"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:284
+msgid "Link Background"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:295
+msgid "(Deprecated)Link Font Size"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:347
+msgid "Link Border"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:355
+msgid "Link Border Radius"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:378
+msgid "Link Padding"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:390
+msgid "Link Margin"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-new-accouont/wc-new-accouont.php:392
+msgid "Support for margins are limited with inline block css in emails so in some email clinets such as outlook it might not work as expected"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:35
+msgid "Order Meta"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:84
+msgid "Main"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:94
+msgid "<div style=\"line-height: 22px;font-size: 12px;margin-top: 24px;\">For now, this widget enables the use of <a target=\"_blank\" href=\"https://woocommerce.com/document/add-a-custom-field-in-an-order-to-the-emails/\">woocommerce_email_order_meta</a> filter added by WooCommerce. But if you have not added any data via the filter as expected nothing is going to show up in your email for this widget. There might be improements done in future to allow use of meta key directly through this widget</div>"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:189
+msgid "Label Color"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:200
+msgid "(Deprecated)Content Font Size"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:226
+msgid "Content Typography"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:249
+msgid "(Deprecated)Label Font Size"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-meta/wc-order-meta.php:274
+msgid "Label Typography"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:34
+msgid "WooCommerce Order Notes"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:91
+msgid "Intro Message"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-order-notes/wc-order-notes.php:93
+msgid "Type additional info here"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:34
+msgid "WooCommerce Shipping Addresses"
+msgstr ""
+
+#: integrations/elementor/widgets/wc-shipping-address/wc-shipping-address.php:104
+msgid "Shipping Address"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:39
+#: integrations/wpforms/base.php:132
+msgid "Elemailer Settings"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:40
+msgid "Elemailer is a marketing platform for small businesses. Send beautiful emails, connect your e-commerce store, advertise, and build your brand. Use Fluent Forms to collect customer information and automatically add it to your Elemailer list."
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:45
+msgid "Enter your a label."
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:83
+msgid "Your elemailer configure data has been verfied and successfully set"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:90
+msgid "Elemailer Feed"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:93
+msgid "Configuration required!"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:95
+msgid "Elemailer is not configured yet! Please configure your elemailer api first"
+msgstr ""
+
+#: integrations/fluentform/actions/subscribe.php:96
+msgid "Set Elemailer API"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:65
+msgid "Use this Action to add your submissions to Elemailer. Please make sure you enter proper Field ID from created ninja form. Email Field ID is required."
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:82
+msgid "Depending on the status the opt in email will be sent if configured. Check Elemailer documentation for more info"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:89
+msgid "Email*"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:101
+msgid "First name"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:102
+msgid "First name Field ID"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:111
+msgid "Last name"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:112
+msgid "Last name Field ID"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:121
+msgid "List Segmentation"
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:124
+msgid "You may Select the list where you want to add your form leads to inside Elemailer or leave it empty to just add the lead in Elemailer but not in a specific list."
+msgstr ""
+
+#: integrations/ninja-form/actions/collect-lead.php:212
+msgid "No Lists Found in Elemailer. Create some Lists in Elemailer if you want segmentation"
+msgstr ""
+
+#: integrations/ninja-form/actions/hooks.php:51
+msgid "Select Elemailer Template"
+msgstr ""
+
+#: integrations/pafe/actions/hooks.php:168
+msgid "Enable Subscriber Collection"
+msgstr ""
+
+#: integrations/pafe/actions/hooks.php:195
+msgid "Email Field ID(*)"
+msgstr ""
+
+#: integrations/shortcode/actions/hooks.php:76
+msgid "Enter field key"
+msgstr ""
+
+#: integrations/shortcode/actions/hooks.php:77
+msgid "Enter elemailer key"
+msgstr ""
+
+#: integrations/wpforms/base.php:72
+msgid "Want to use Elemailer for designing the Email?"
+msgstr ""
+
+#: integrations/wpforms/base.php:73
+msgid "Follow this"
+msgstr ""
+
+#: integrations/wpforms/base.php:175
+msgid "Add Subscriber in Elemailer"
+msgstr ""
+
+#: integrations/wpforms/base.php:186
+msgid "Select list(s) to add your lead to in Elemailer. Or select none"
+msgstr ""
+
+#: integrations/wpforms/base.php:197
+msgid "No Lists created in Elemailer yet to be selected for segmentation"
+msgstr ""
+
+#: integrations/wpforms/base.php:206
+msgid "Default Status"
+msgstr ""
+
+#: integrations/wpforms/base.php:218
+msgid "Select a Default status for your Lead."
+msgstr ""
+
+#: integrations/wpforms/base.php:230
+msgid "Email Address"
+msgstr ""
+
+#: integrations/wpforms/base.php:233
+msgid "-- Select Email --"
+msgstr ""
+
+#: integrations/wpforms/base.php:236
+#: public/views/cf7-metabox-render.php:73
+msgid "Put the email field name from Form section."
+msgstr ""
+
+#: integrations/wpforms/base.php:250
+msgid "-- Select First Name --"
+msgstr ""
+
+#: integrations/wpforms/base.php:253
+#: public/views/cf7-metabox-render.php:86
+msgid "Put the first name field name from Form section."
+msgstr ""
+
+#: integrations/wpforms/base.php:267
+msgid "-- Select Last Name --"
+msgstr ""
+
+#: integrations/wpforms/base.php:270
+#: public/views/cf7-metabox-render.php:99
+msgid "Put the last name field name from Form section."
+msgstr ""
+
+#: lib/cron/base.php:49
+msgid "Every months"
+msgstr ""
+
+#: lib/cron/base.php:61
+msgid "Every "
+msgstr ""
+
+#: lib/cron/base.php:80
+msgid "Every years"
+msgstr ""
+
+#: lib/license/action.php:39
+msgid "Invalid license"
+msgstr ""
+
+#: lib/license/action.php:40
+msgid "License doesn't exist"
+msgstr ""
+
+#: lib/license/action.php:41
+msgid "URL not provided"
+msgstr ""
+
+#: lib/license/action.php:42
+msgid "Attempting to activate a bundle's parent license"
+msgstr ""
+
+#: lib/license/action.php:43
+#: lib/license/action.php:49
+msgid "License key revoked"
+msgstr ""
+
+#: lib/license/action.php:44
+msgid "No activations left"
+msgstr ""
+
+#: lib/license/action.php:45
+msgid "License has expired"
+msgstr ""
+
+#: lib/license/action.php:46
+#: lib/license/action.php:48
+msgid "License is not valid for this product"
+msgstr ""
+
+#: lib/license/action.php:47
+msgid "Invalid Item ID"
+msgstr ""
+
+#: lib/license/action.php:50
+msgid "License key is not for this domain"
+msgstr ""
+
+#: lib/license/action.php:51
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: lib/license/action.php:54
+msgid "License is valid and activated."
+msgstr ""
+
+#: lib/license/action.php:55
+msgid "License is deactivated."
+msgstr ""
+
+#: lib/license/action.php:56
+msgid "Successfully done."
+msgstr ""
+
+#: lib/license/action.php:107
+msgid "Not a valid license for this domain."
+msgstr ""
+
+#: lib/license/action.php:113
+msgid "License not found"
+msgstr ""
+
+#: lib/license/action.php:152
+msgid "Already activated"
+msgstr ""
+
+#: lib/license/action.php:192
+msgid "License data is not found."
+msgstr ""
+
+#: lib/license/base.php:87
+msgid "Activate license"
+msgstr ""
+
+#: lib/license/base.php:96
+msgid "Activate license to use Elemailer"
+msgstr ""
+
+#: lib/license/template.php:3
+msgid "License Settings"
+msgstr ""
+
+#: lib/license/template.php:14
+msgid "Enter your license key here: "
+msgstr ""
+
+#: lib/license/template.php:15
+msgid "You have to activate your license key to use Elemailer."
+msgstr ""
+
+#: lib/license/template.php:15
+msgid "Get elemailer license"
+msgstr ""
+
+#: lib/license/template.php:20
+msgid "Activate"
+msgstr ""
+
+#: lib/license/template.php:26
+msgid "License activated. You can revoke it: "
+msgstr ""
+
+#: lib/license/template.php:27
+msgid "Your license key is activated. Now, You can use elEmailer. If you want to use this license to another domain. just revoke it from here."
+msgstr ""
+
+#: lib/license/template.php:32
+msgid "Activated"
+msgstr ""
+
+#: lib/license/template.php:33
+msgid "Revoke license"
+msgstr ""
+
+#: lib/license/updater.php:236
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: lib/license/updater.php:244
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: lib/license/updater.php:488
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: lib/license/updater.php:488
+msgid "Error"
+msgstr ""
+
+#: lib/pages/subscribers/manage-subscription.php:17
+msgid "Manage your subscriptions."
+msgstr ""
+
+#: lib/pages/unsubscribers/manage-unsubscription.php:7
+msgid "Deselect List(s) to unsubscribe your Email."
+msgstr ""
+
+#: lib/pages/unsubscribers/unsubscribed.php:12
+msgid "Unsubscription Successful!"
+msgstr ""
+
+#: lib/pages/unsubscribers/unsubscribed.php:13
+msgid "You have successfully unsubscribed from the deselected list(s)."
+msgstr ""
+
+#: lib/shortcode.php:89
+#: lib/shortcode.php:182
+msgid "Invalid subscriber."
+msgstr ""
+
+#: lib/shortcode.php:127
+msgid "It seems you are not subscribed to any list with us at the moment."
+msgstr ""
+
+#: lib/shortcode.php:186
+msgid "Your preference is updated... Refreshing"
+msgstr ""
+
+#: lib/shortcode.php:207
+msgid "Submit"
+msgstr ""
+
+#: lib/shortcode.php:225
+msgid "Thank you!"
+msgstr ""
+
+#: lib/shortcode.php:226
+msgid "You have successfully confirmed your subscription."
+msgstr ""
+
+#: lib/shortcode.php:227
+msgid "Opps! You already subscribed once."
+msgstr ""
+
+#: lib/shortcode.php:228
+msgid "This link is one time use only. The link is expired!"
+msgstr ""
+
+#: lib/shortcode.php:229
+msgid "Opps! This is odd!"
+msgstr ""
+
+#: lib/shortcode.php:230
+msgid "Maybe your token is not valid or you are not our subscriber."
+msgstr ""
+
+#: lib/shortcode.php:250
+#: lib/shortcode.php:254
+#: lib/shortcode.php:261
+#: lib/shortcode.php:264
+#: lib/shortcode.php:270
+#: lib/shortcode.php:274
+#: lib/shortcode.php:282
+#: lib/shortcode.php:286
+msgid "%s"
+msgstr ""
+
+#: lib/shortcode.php:277
+msgid "This is just a Preview page for admin."
+msgstr ""
+
+#: plugin.php:505
+#: plugin.php:506
+msgid "Subscribers"
+msgstr ""
+
+#: plugin.php:538
+msgid "Shortcodes Generator"
+msgstr ""
+
+#: plugin.php:539
+msgid "Shortcodes"
+msgstr ""
+
+#: plugin.php:550
+#: plugin.php:551
+msgid "License"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:2
+msgid "Elemailer Options"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:9
+msgid "Enable elemailer email template"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:15
+msgid "Mail 1 Template"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:19
+#: public/views/cf7-metabox-render.php:31
+msgid "Select Template"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:27
+msgid "Mail 2 Template"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:44
+msgid "Enable Subscription in Elemailer"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:50
+msgid "When any users submit the form their emails will go to the selected listing."
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:54
+msgid "Select list"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:62
+msgid "Email Field"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:66
+msgid "Select email field"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:75
+msgid "First Name Field"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:79
+msgid "Select first name field"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:88
+msgid "Last Name Field"
+msgstr ""
+
+#: public/views/cf7-metabox-render.php:92
+msgid "Select last name field"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:3
+msgid "Generate Elemailer Shortcode"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:4
+#: public/views/templates.php:92
+#: public/views/templates.php:93
+msgid "Close"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:8
+msgid "Select elemailer template"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:15
+msgid "Unique random Field ID"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:16
+msgid "Your original Field ID"
+msgstr ""
+
+#: public/views/shortcode-floating-icon.php:31
+msgid "Copy shortcode"
+msgstr ""
+
+#: public/views/template-create-modal.php:8
+msgid "Elemailer Form Template Settings"
+msgstr ""
+
+#: public/views/template-create-modal.php:18
+msgid "Template Name"
+msgstr ""
+
+#: public/views/template-create-modal.php:20
+msgid "This is your template name or title"
+msgstr ""
+
+#: public/views/template-create-modal.php:22
+msgid "This template will be used only for elementor pro's form action's email and email2."
+msgstr ""
+
+#: public/views/template-create-modal.php:23
+msgid "You can use our template on elementor form submission."
+msgstr ""
+
+#: public/views/template-create-modal.php:30
+msgid "Edit with elementor"
+msgstr ""
+
+#: public/views/template-create-modal.php:34
+msgid "Save changes"
+msgstr ""
+
+#: public/views/templates.php:16
+msgid "Free"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:17
+#: public/views/templates.php:145
+#: public/views/templates.php:274
+msgid "Premium"
+msgstr ""
+
+#: public/views/templates.php:23
+msgid "Search..."
+msgstr ""
+
+#: public/views/templates.php:24
+msgid "SEARCH"
+msgstr ""
+
+#: public/views/templates.php:82
+msgid "Back to Layout"
+msgstr ""
+
+#: public/views/templates.php:87
+msgid "My Template"
+msgstr ""
+
+#: public/views/templates.php:97
+msgid "Sync Library"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:145
+#: public/views/templates.php:274
+msgid "This premium template is accessible with %1$s \"Premium\" Package."
+msgstr ""
+
+#: public/views/templates.php:181
+msgid "Created By"
+msgstr ""
+
+#: public/views/templates.php:185
+msgid "Creation Date"
+msgstr ""
+
+#: public/views/templates.php:188
+msgid "Actions"
+msgstr ""
+
+#: public/views/templates.php:201
+msgid "No Templates Found."
+msgstr ""
+
+#: public/views/templates.php:234
+#: public/views/templates.php:388
+msgid "Insert"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: public/views/templates.php:274
+msgid "Elemailer Pro"
+msgstr ""
+
+#: public/views/templates.php:286
+#: public/views/templates.php:365
+#: public/views/templates.php:398
+msgid "Sorry No Results Found."
+msgstr ""
+
+#. translators: %1$s External Link
+#: public/views/templates.php:292
+#: public/views/templates.php:371
+#: public/views/templates.php:404
+msgid "Don't see a template you would like to import?<br><a target=\"_blank\" href=\"%1$s\">Make a Template Suggestion!</a>"
+msgstr ""
+
+#: public/views/templates.php:295
+#: public/views/templates.php:374
+#: public/views/templates.php:407
+msgid "Back to Templates"
+msgstr ""
+
+#: public/views/templates.php:453
+msgid "Import Template"
+msgstr ""

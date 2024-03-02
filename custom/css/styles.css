@@ -1,0 +1,16 @@
+.bdente .btn.btn-primary{
+    background-color: #b33436;
+    border-color: #b33436;
+}
+.bdente .bg-primary{
+    background-color: #b33436 !important;
+}
+
+#clinicas-hero-top{
+    margin-top: -150px;
+}
+#clinicas-indicadores{
+    margin-top: -190px;
+    position: relative;
+    z-index: 100;
+}

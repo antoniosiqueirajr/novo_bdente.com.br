@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N: Fast Escova Londrina;
+ORG:Fast Escova
+EMAIL;TYPE=work:londrina@fastescova.com.br
+TEL;TYPE=work:433029 5220
+ADR;:;;R. Goiás, 1881 - SL 02 e 03 - Centro, Londrina - PR, 86010-460, Brasil
+URL;TYPE=Fast Escova:
+END:VCARD

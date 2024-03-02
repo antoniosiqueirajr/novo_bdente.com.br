@@ -1,0 +1,24 @@
+{
+	"name": "custom-facebook-feed-pro",
+	"version": "1.0.0",
+	"description": "Add a completely customizable Facebook feed to your WordPress site",
+	"author": "Smash Balloon",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php --webpack-src-dir=assets/blocks --output-path=assets/dist",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php --webpack-src-dir=assets/blocks --output-path=assets/dist"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.4.0"
+	},
+	"dependencies": {
+		"@awesomemotive/blocks": "^1.1.0",
+		"@wordpress/server-side-render": "^4.10.0"
+	}
+}

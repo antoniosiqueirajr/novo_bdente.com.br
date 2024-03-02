@@ -1,0 +1,14 @@
+{
+  "name": "Bdente",
+  "short_name": "Bedente",
+  "icons": [
+    {
+      "src": "/",
+      "sizes": "306x308",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#b33436",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

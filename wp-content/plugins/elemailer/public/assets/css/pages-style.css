@@ -1,0 +1,17 @@
+/* elemailer confirmation page design css start */
+.elemailer-page-wrapper{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 5.34em 6.67em;
+    min-height: 50vh;
+}
+/* elemailer confirmation page design css end */
+
+.elemailer-update-notice.error{
+    color: rgb(247, 8, 8);
+}
+
+.elemailer-update-notice.success{
+    color: rgb(8, 247, 28);
+}

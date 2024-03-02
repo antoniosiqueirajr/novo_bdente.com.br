@@ -1,0 +1,86 @@
+{
+    "wod": {
+        "enable-logging": false,
+        "enable-redirection-to-converter": true,
+        "enable-redirection-to-webp-realizer": true,
+        "base-htaccess-on-these-capability-tests": {
+            "passThroughHeaderWorking": false,
+            "passThroughEnvWorking": true,
+            "modHeaderWorking": true,
+            "canRunTestScriptInWOD": true,
+            "canRunTestScriptInWOD2": true
+        },
+        "destination-extension": "append",
+        "destination-folder": "mingled",
+        "forward-query-string": true,
+        "image-roots": [
+            {
+                "id": "uploads",
+                "rel-path": "wp-content/uploads",
+                "url": "https://wp.bdente.com.br/wp-content/uploads"
+            },
+            {
+                "id": "themes",
+                "rel-path": "wp-content/themes",
+                "url": "https://wp.bdente.com.br/wp-content/themes"
+            },
+            {
+                "id": "plugins",
+                "rel-path": "wp-content/plugins",
+                "url": "https://wp.bdente.com.br/wp-content/plugins"
+            },
+            {
+                "id": "wp-content",
+                "rel-path": "wp-content",
+                "url": "https://wp.bdente.com.br/wp-content"
+            },
+            {
+                "id": "index",
+                "rel-path": ".",
+                "url": "https://wp.bdente.com.br"
+            }
+        ],
+        "success-response": "converted"
+    },
+    "webp-convert": {
+        "serve-image": {
+            "headers": {
+                "cache-control": true,
+                "content-length": true,
+                "content-type": true,
+                "expires": true,
+                "last-modified": true
+            },
+            "cache-control-header": "public, max-age=604800"
+        },
+        "fail": "original",
+        "convert": {
+            "converters": [
+                {
+                    "converter": "gd",
+                    "options": {
+                        "skip-pngs": false
+                    }
+                },
+                {
+                    "converter": "imagick"
+                }
+            ],
+            "jpeg": {
+                "encoding": "auto",
+                "quality": "auto",
+                "default-quality": 70,
+                "max-quality": 80,
+                "near-lossless": 60
+            },
+            "png": {
+                "encoding": "auto",
+                "quality": 85,
+                "near-lossless": 60,
+                "alpha-quality": 80
+            },
+            "metadata": "none",
+            "log-call-arguments": true
+        }
+    }
+}

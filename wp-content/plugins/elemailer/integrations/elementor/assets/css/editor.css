@@ -1,0 +1,138 @@
+/* show only void email template widgets category */
+#elementor-panel-categories .elementor-panel-category:not(#elementor-panel-category-elemailer-template-builder-fields) {
+    display: none;
+}
+
+/* hide advanced tab from elementor editor panel updated @2.6*/
+#elementor-panel-content-wrapper #elementor-panel-page-editor .elementor-panel-navigation .elementor-component-tab.elementor-panel-navigation-tab:not(.elementor-tab-control-content,.elementor-tab-control-style){
+    display: none;
+}
+
+/* hide editor panel settings except for needed ones updated @2.6*/
+#elementor-panel-content-wrapper #elementor-panel-page-menu-content .elementor-panel-menu-item:not(.elementor-panel-menu-item-editor-preferences,.elementor-panel-menu-item-view-page,.elementor-panel-menu-item-exit-to-dashboard,.elementor-panel-menu-item-elemailer-body-settings, .elementor-panel-menu-item-exit){
+    display: none;
+}
+
+/* hide global widget switching tab for avoiding show others global widgets */
+#elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-elements-navigation div[data-tab="global"] {
+    display: none;
+}
+/* hide left editor panel global widget selection system as the above don't work with update*/
+#elementor-panel-elements-navigation{
+    display: none;
+}
+/* hide search button for avoiding show others widgets during search + hide panel notice*/
+/* To hide search area in future use #elementor-panel-inner #elementor-panel-content-wrapper #elementor-panel-page-elements #elementor-panel-elements-search-area */
+#elementor-panel-content-wrapper #elementor-panel-elements-notice-area {
+    display: none;
+}
+/* don't hide setting panel's other tab panel directly since @2.6 */
+
+#elementor-panel-page-settings .elementor-panel-navigation-tab:not(.elementor-tab-control-settings){
+    display: none;
+}
+#elementor-panel-page-settings #elementor-panel-page-settings-controls .elementor-control:not([class*="elemailer"]):not(.elementor-control-document_settings):not(.elementor-control-post_title):not(.elementor-control-post_status){
+    display:none;
+}
+/* hide attribute option due to bug in elementor the option=>false is not working */
+.elementor-control-url__custom-attributes{
+    display: none;
+}
+/* disable responsive control icons. Enable in future. since @2.6 */
+[class*="elemailer"].elementor-group-control-background .elementor-control-responsive-switchers {
+    display: none;
+}
+.elementor-control-type-font .elementor-control-field-description{
+    border-color: var(--e-a-color-warning);
+    background: var(--e-a-bg-warning);
+    padding: 5px;
+    border-left: 3px solid var(--e-a-color-warning);
+    position: relative;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+    border-radius: 0 3px 3px 0;
+}
+
+/* remove all responsive control buttons */
+.elementor-responsive-switcher{
+    display: none;
+}
+
+/* hide get elementor pro notification */
+#elementor-panel-get-pro-elements{
+    display:none;
+}
+
+/* elementor width issue solve specially in iframe */
+.elementor-device-desktop #elementor-preview-responsive-wrapper {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+}
+/* global color selection remove from color control */
+#elementor-panel-content-wrapper #elementor-panel-page-editor #elementor-controls .e-global__popover-toggle.elementor-control-unit-1 {
+    display: none;
+}
+/* global color add button remove from color control */
+.pcr-app.visible .e-color-picker__tools button.e-control-tool{
+    display: none;
+}
+
+/*#elementor-panel-footer-responsive{
+    display: none;
+}*/
+
+/* editor_v2 issue solve */
+
+#elementor-editor-wrapper-v2 button[value="Site Settings"]{
+    display: none;
+}
+#elementor-editor-wrapper-v2 .css-1j8r2w0{
+    display: none;
+}
+#elementor-editor-wrapper-v2 a[aria-label="Help"]{
+    display: none;
+}
+
+/*.elementor-panel #elementor-panel-header-menu-button, .elementor-panel #elementor-panel-header-add-button, .elementor-panel #elementor-panel-footer{
+    display: block!important;
+}
+#elementor-editor-wrapper-v2{
+    display: none!important;
+}*/
+
+/* CSS for dark mode */
+
+@media (prefers-color-scheme: dark) {
+   .elemailer-wc-email-shortcodes-list-manual{
+    color: #fff;
+   }
+}
+.wl-order-extra-meta {
+    width: 100%;
+    border-collapse: collapse;
+}
+.wl-order-extra-meta thead tr th {
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.wl-order-extra-meta tbody tr td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.elementor-form-field.wl-tm-form-fields {
+    display: none;
+}
+#order_data .order_data_column p.order_note {
+    display: none;
+}
+.wl-billing-extra-metas p.wl-billing-extra-meta,
+.wl-shipping-extra-metas p.wl-shipping-extra-meta,
+.wl-order-comments-metas p.wl-order-comments-meta {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

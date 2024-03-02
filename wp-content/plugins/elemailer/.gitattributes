@@ -1,0 +1,13 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+.github/ export-ignore
+.gitignore export-ignore
+package-lock.json export-ignore
+package.json export-ignore
+
+/lib/goodby/composer.phar export-ignore
+lib/goodby/composer.phar export-ignore
+lib/goodby/composer.lock export-ignore
+lib/goodby/composer.json export-ignore
+
