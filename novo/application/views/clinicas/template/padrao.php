@@ -1743,10 +1743,10 @@
                             <div class="e-con-inner">
                                 <div class="elementor-element elementor-element-246469e elementor-widget elementor-widget-heading" data-id="246469e" data-element_type="widget" data-widget_type="heading.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Feito com <span style="color: #ff0000;">❤</span> por
-                                            <a href="https://sjrcapital.com.br/" title="Siqueira Jr" style="display: iblock; margin: 0 0 0 5px; top: 10px; position:relative;">
+                                        <h2 class="elementor-heading-title elementor-size-default">Feito com <span style="color: #ff0000;">❤</span> por SJ Capital
+                                            <!-- <a href="https://sjrcapital.com.br/" title="Siqueira Jr" style="display: iblock; margin: 0 0 0 5px; top: 10px; position:relative;">
                                                 <picture><img style="height:25px;" class="" src="https://sjcapital.com.br/assets/img/logo/logo223.png" alt=""></picture>
-                                            </a>
+                                            </a> -->
                                         </h2>
                                     </div>
                                 </div>
