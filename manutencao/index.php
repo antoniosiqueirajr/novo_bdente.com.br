@@ -337,7 +337,7 @@
                     <p class="fs-lg pb-3 mb-4 mb-xl-5">Mal podemos esperar para revelar no que estamos trabalhando e agradecemos sua paciência. Obrigado por fazer parte da nossa jornada!</p>
 
                     <!-- Countdown -->
-                    <div class="countdown d-flex flex-wrap justify-content-center justify-content-lg-start pb-3 mb-4 mb-xl-5" data-countdown-date="03/10/2024 23:59:00">
+                    <div class="countdown d-flex flex-wrap justify-content-center justify-content-lg-start pb-3 mb-4 mb-xl-5" data-countdown-date="03/10/2024 00:00:00">
                         <div class="text-center mb-2">
                             <div class="bg-secondary rounded-1 p-2">
                                 <div class="h3 fw-medium mb-0 mx-1" data-days></div>
