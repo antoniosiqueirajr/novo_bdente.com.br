@@ -1758,7 +1758,7 @@
                     <div class="e-con-inner">
                         <div class="elementor-element elementor-element-811e414 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="811e414" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default" id="anoAtual"></p>
+                                <p class="elementor-heading-title elementor-size-default" id="direitosReservados"></p>
                             </div>
                         </div>
                     </div>
@@ -1767,8 +1767,8 @@
                         // Obtém o ano atual
                         var anoAtual = new Date().getFullYear();
 
-                        // Atualiza o conteúdo da tag <p> com o ano atual
-                        document.getElementById('anoAtual').innerText = anoAtual;
+                        // Atualiza o conteúdo da tag <p> com o ano atual e o texto "Todos os direitos reservados"
+                        document.getElementById('direitosReservados').innerText = anoAtual + ' © Todos os direitos reservados';
                     </script>
 
                 </div>
