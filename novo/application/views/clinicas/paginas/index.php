@@ -874,7 +874,7 @@
                                                 <div class="elementor-widget-container">
                                                     <div class="pt-heading text-align-">
                                                         <h3 class="pt-heading-title h3">
-                                                            Horário de atendimento
+                                                            Horário atendimento
                                                         </h3>
                                                     </div>
                                                 </div>
@@ -888,7 +888,7 @@
                                                     </div>
                                                     <div class="elementor-element elementor-element-9d8d811 elementor-widget elementor-widget-text-editor" data-id="9d8d811" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>08:00 - 18:00</p>
+                                                            <p>08:30 - 18:00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -910,7 +910,7 @@
                                                     </div>
                                                     <div class="elementor-element elementor-element-7f1b3a8 elementor-widget elementor-widget-text-editor" data-id="7f1b3a8" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>08:00 - 18:00</p>
+                                                            <p>08:30 - 18:00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -932,7 +932,7 @@
                                                     </div>
                                                     <div class="elementor-element elementor-element-36f8ef2 elementor-widget elementor-widget-text-editor" data-id="36f8ef2" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>08:00 - 18:00</p>
+                                                            <p>08:30 - 18:00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -954,7 +954,7 @@
                                                     </div>
                                                     <div class="elementor-element elementor-element-0eca508 elementor-widget elementor-widget-text-editor" data-id="0eca508" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>08:00 - 18:00</p>
+                                                            <p>08:30 - 18:00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -976,7 +976,7 @@
                                                     </div>
                                                     <div class="elementor-element elementor-element-17badb9 elementor-widget elementor-widget-text-editor" data-id="17badb9" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
-                                                            <p>08:00 - 18:00</p>
+                                                            <p>08:30 - 18:00</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -989,7 +989,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-f3f7423 e-flex e-con-boxed e-con e-child" data-id="f3f7423" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                                            <!-- <div class="elementor-element elementor-element-f3f7423 e-flex e-con-boxed e-con e-child" data-id="f3f7423" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
                                                 <div class="e-con-inner">
                                                     <div class="elementor-element elementor-element-9120a73 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="9120a73" data-element_type="widget" data-widget_type="text-editor.default">
                                                         <div class="elementor-widget-container">
@@ -1002,7 +1002,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-1fdea26 e-flex e-con-boxed e-con e-child" data-id="1fdea26" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
