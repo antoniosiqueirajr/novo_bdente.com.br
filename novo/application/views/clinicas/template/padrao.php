@@ -1621,7 +1621,7 @@
                             </div>
                         </div>
                     </div>
-                <!-- </div>
+                    <!-- </div>
                 <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-e776207 e-flex e-con-boxed e-con e-child" data-id="e776207" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
                     <div class="e-con-inner">
                         <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-5ed618c e-flex e-con-boxed e-con e-child" data-id="5ed618c" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
@@ -1712,200 +1712,206 @@
                         </div>
                     </div>
                 </div> -->
+                </div>
             </div>
-        </div>
-        <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-476dd4e e-flex e-con-boxed e-con e-parent" data-id="476dd4e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
-            <div class="e-con-inner">
-                <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-57b7e3e e-flex e-con-boxed e-con e-child" data-id="57b7e3e" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
-                    <div class="e-con-inner">
-                        <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-ec70b96 e-con-full e-flex e-con e-child" data-id="ec70b96" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;container_type&quot;:&quot;flex&quot;}">
-                            <div class="elementor-element elementor-element-eb35c5d elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="eb35c5d" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <picture>
-                                        <source srcset="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png.webp 920w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-600x161.png.webp 600w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-300x81.png.webp 300w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-768x206.png.webp 768w" sizes="(max-width: 920px) 100vw, 920px" type="image/webp"><img loading="lazy" width="920" height="247" src="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png" class="attachment-full size-full wp-image-48 webpexpress-processed" alt="" srcset="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png 920w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-600x161.png 600w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-300x81.png 300w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-768x206.png 768w" sizes="(max-width: 920px) 100vw, 920px">
-                                    </picture>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-65299f7 elementor-align-left elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="65299f7" data-element_type="widget" data-widget_type="icon-list.default">
-                                <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items elementor-inline-items">
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-text">Politica de privacidade</span>
-                                        </li>
-                                        <li class="elementor-icon-list-item elementor-inline-item">
-                                            <span class="elementor-icon-list-text">Termo de confidêncialidade</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-52dd6bd e-flex e-con-boxed e-con e-child" data-id="52dd6bd" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
-                            <div class="e-con-inner">
-                                <div class="elementor-element elementor-element-246469e elementor-widget elementor-widget-heading" data-id="246469e" data-element_type="widget" data-widget_type="heading.default">
+            <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-476dd4e e-flex e-con-boxed e-con e-parent" data-id="476dd4e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+                <div class="e-con-inner">
+                    <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-57b7e3e e-flex e-con-boxed e-con e-child" data-id="57b7e3e" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+                        <div class="e-con-inner">
+                            <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-ec70b96 e-con-full e-flex e-con e-child" data-id="ec70b96" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;container_type&quot;:&quot;flex&quot;}">
+                                <div class="elementor-element elementor-element-eb35c5d elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="eb35c5d" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <h2 class="elementor-heading-title elementor-size-default">Feito com <span style="color: #ff0000;">❤</span> por SJ Capital
-                                            <!-- <a href="https://sjrcapital.com.br/" title="Siqueira Jr" style="display: iblock; margin: 0 0 0 5px; top: 10px; position:relative;">
+                                        <picture>
+                                            <source srcset="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png.webp 920w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-600x161.png.webp 600w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-300x81.png.webp 300w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-768x206.png.webp 768w" sizes="(max-width: 920px) 100vw, 920px" type="image/webp"><img loading="lazy" width="920" height="247" src="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png" class="attachment-full size-full wp-image-48 webpexpress-processed" alt="" srcset="https://wp.bdente.com.br/wp-content/uploads/2023/07/logo.png 920w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-600x161.png 600w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-300x81.png 300w, https://wp.bdente.com.br/wp-content/uploads/2023/07/logo-768x206.png 768w" sizes="(max-width: 920px) 100vw, 920px">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-65299f7 elementor-align-left elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="65299f7" data-element_type="widget" data-widget_type="icon-list.default">
+                                    <div class="elementor-widget-container">
+                                        <ul class="elementor-icon-list-items elementor-inline-items">
+                                            <li class="elementor-icon-list-item elementor-inline-item">
+                                                <a href="link_da_politica_de_privacidade">
+                                                    <span class="elementor-icon-list-text">Politica de privacidade</span>
+                                                </a>
+                                            </li>
+                                            <li class="elementor-icon-list-item elementor-inline-item">
+                                                <a href="link_do_termo_de_confidencialidade">
+                                                    <span class="elementor-icon-list-text">Termo de confidencialidade</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-52dd6bd e-flex e-con-boxed e-con e-child" data-id="52dd6bd" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+                                <div class="e-con-inner">
+                                    <div class="elementor-element elementor-element-246469e elementor-widget elementor-widget-heading" data-id="246469e" data-element_type="widget" data-widget_type="heading.default">
+                                        <div class="elementor-widget-container">
+                                            <h2 class="elementor-heading-title elementor-size-default">Feito com <span style="color: #ff0000;">❤</span> por SJ Capital
+                                                <!-- <a href="https://sjrcapital.com.br/" title="Siqueira Jr" style="display: iblock; margin: 0 0 0 5px; top: 10px; position:relative;">
                                                 <picture><img style="height:25px;" class="" src="https://sjcapital.com.br/assets/img/logo/logo223.png" alt=""></picture>
                                             </a> -->
-                                        </h2>
+                                            </h2>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-2a18681 e-flex e-con-boxed e-con e-child" data-id="2a18681" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
-                    <div class="e-con-inner">
-                        <div class="elementor-element elementor-element-811e414 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="811e414" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default" id="direitosReservados"></p>
+                    <div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-2a18681 e-flex e-con-boxed e-con e-child" data-id="2a18681" data-element_type="container" data-settings="{&quot;container_type&quot;:&quot;flex&quot;,&quot;content_width&quot;:&quot;boxed&quot;}">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-811e414 elementor-widget__width-auto elementor-widget elementor-widget-heading" data-id="811e414" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <p class="elementor-heading-title elementor-size-default" id="direitosReservados"></p>
+                                </div>
                             </div>
                         </div>
+
+                        <script>
+                            // Obtém o ano atual
+                            var anoAtual = new Date().getFullYear();
+
+                            // Atualiza o conteúdo da tag <p> com o ano atual e o texto "Todos os direitos reservados"
+                            document.getElementById('direitosReservados').innerText = anoAtual + ' © Todos os direitos reservados';
+                        </script>
+
                     </div>
-
-                    <script>
-                        // Obtém o ano atual
-                        var anoAtual = new Date().getFullYear();
-
-                        // Atualiza o conteúdo da tag <p> com o ano atual e o texto "Todos os direitos reservados"
-                        document.getElementById('direitosReservados').innerText = anoAtual + ' © Todos os direitos reservados';
-                    </script>
-
                 </div>
             </div>
         </div>
-    </div>
-    <div class="site-search">
-        <h3 class="site-search-title">Pelo que você está procurando?</h3>
-        <div class="site-search-form">
-            <form role="search" method="get" class="search-form" action="#">
-                <input type="search" class="search-field" value="" name="s" placeholder="Search...">
-                <input type="submit" class="search-submit" value="">
-                <button type="submit" class="search-submit"></button>
-            </form>
+        <div class="site-search">
+            <h3 class="site-search-title">Pelo que você está procurando?</h3>
+            <div class="site-search-form">
+                <form role="search" method="get" class="search-form" action="#">
+                    <input type="search" class="search-field" value="" name="s" placeholder="Search...">
+                    <input type="submit" class="search-submit" value="">
+                    <button type="submit" class="search-submit"></button>
+                </form>
+            </div>
+            <div class="site-search-close search-toggle"></div>
         </div>
-        <div class="site-search-close search-toggle"></div>
-    </div>
-    <script>
-        (function() {
-            function maybePrefixUrlField() {
-                const value = this.value.trim()
-                if (value !== '' && value.indexOf('http') !== 0) {
-                    this.value = 'http://' + value
+        <script>
+            (function() {
+                function maybePrefixUrlField() {
+                    const value = this.value.trim()
+                    if (value !== '' && value.indexOf('http') !== 0) {
+                        this.value = 'http://' + value
+                    }
                 }
-            }
 
-            const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
-            for (let j = 0; j < urlFields.length; j++) {
-                urlFields[j].addEventListener('blur', maybePrefixUrlField)
-            }
-        })();
-    </script>
-    <div data-elementor-type="popup" data-elementor-id="1031" class="elementor elementor-1031 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.59999999999999998,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;page_load_delay&quot;:5,&quot;page_load&quot;:&quot;yes&quot;},&quot;timing&quot;:{&quot;times_times&quot;:1,&quot;times&quot;:&quot;yes&quot;}}" data-elementor-post-type="elementor_library">
-        <div class="elementor-element elementor-element-d8375fb e-flex e-con-boxed e-con e-parent" data-id="d8375fb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
-            <div class="e-con-inner">
-                <div class="elementor-element elementor-element-a3431e6 e-con-full e-flex e-con e-child" data-id="a3431e6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
-                    <div class="elementor-element elementor-element-1bd596c elementor-widget elementor-widget-pt-heading" data-id="1bd596c" data-element_type="widget" data-widget_type="pt-heading.default">
-                        <div class="elementor-widget-container">
-                            <div class="pt-heading text-align-">
-                                <p class="pt-heading-subtitle">make an appointment</p>
-                                <h2 class="pt-heading-title h2">
-                                    Prompt &amp; Compassionate Care When You Need It
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-c86c02e elementor-widget elementor-widget-pt-contact-form-7" data-id="c86c02e" data-element_type="widget" data-widget_type="pt-contact-form-7.default">
-                        <div class="elementor-widget-container">
-                            <div class="pt-contact-form-7">
-                                <div class="wpcf7 no-js" id="wpcf7-f1062-o2" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
-                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                        <ul></ul>
-                                    </div>
-                                    <form action="#" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
-                                        <div style="display: none;">
-                                            <input type="hidden" name="_wpcf7" value="1062">
-                                            <input type="hidden" name="_wpcf7_version" value="5.8.5">
-                                            <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1062-o2">
-                                            <input type="hidden" name="_wpcf7_container_post" value="0">
-                                            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-12 mb-4 has-chevron">
-                                                <p>
-                                                    <label>Select A Service*</label><br>
-                                                    <span class="wpcf7-form-control-wrap" data-name="menu-405">
-                                                        <select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-405">
-                                                            <option value="Preventive Dental Examination">Preventive Dental Examination</option>
-                                                            <option value="Option 2">Option 2</option>
-                                                            <option value="Option 3">Option 3</option>
-                                                        </select>
-                                                    </span>
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-md-6 mb-4">
-                                                <p><label>Your Name*</label><br>
-                                                    <span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="your-name"></span>
-                                                </p>
-                                            </div>
-                                            <div class="col-12 col-md-6 mb-4">
-                                                <p><label>Your Phone</label><br>
-                                                    <span class="wpcf7-form-control-wrap" data-name="your-phone"><input size="40" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" aria-invalid="false" value="" type="tel" name="your-phone"></span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div style="margin-top: 8px;">
-                                            <p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Agendar Consulta">
-                                            </p>
-                                        </div>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
-                                    </form>
+                const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+                for (let j = 0; j < urlFields.length; j++) {
+                    urlFields[j].addEventListener('blur', maybePrefixUrlField)
+                }
+            })();
+        </script>
+        <div data-elementor-type="popup" data-elementor-id="1031" class="elementor elementor-1031 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;exit_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.59999999999999998,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;page_load_delay&quot;:5,&quot;page_load&quot;:&quot;yes&quot;},&quot;timing&quot;:{&quot;times_times&quot;:1,&quot;times&quot;:&quot;yes&quot;}}" data-elementor-post-type="elementor_library">
+            <div class="elementor-element elementor-element-d8375fb e-flex e-con-boxed e-con e-parent" data-id="d8375fb" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-a3431e6 e-con-full e-flex e-con e-child" data-id="a3431e6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                        <div class="elementor-element elementor-element-1bd596c elementor-widget elementor-widget-pt-heading" data-id="1bd596c" data-element_type="widget" data-widget_type="pt-heading.default">
+                            <div class="elementor-widget-container">
+                                <div class="pt-heading text-align-">
+                                    <p class="pt-heading-subtitle">make an appointment</p>
+                                    <h2 class="pt-heading-title h2">
+                                        Prompt &amp; Compassionate Care When You Need It
+                                    </h2>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="elementor-element elementor-element-333b60d elementor-widget elementor-widget-text-editor" data-id="333b60d" data-element_type="widget" data-widget_type="text-editor.default">
-                        <div class="elementor-widget-container">
-                            <p>*Our manager will call you back within 15 minutes</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-element elementor-element-95b6728 e-con-full e-flex e-con e-child" data-id="95b6728" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
-                    <div class="elementor-element elementor-element-939658d elementor-widget elementor-widget-image" data-id="939658d" data-element_type="widget" data-widget_type="image.default">
-                        <div class="elementor-widget-container">
-                            <img loading="lazy" width="996" height="1094" src="<?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12.webp" class="attachment-full size-full wp-image-372" alt="" srcset="<?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12.webp 996w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-273x300.webp 273w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-932x1024.webp 932w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-768x844.webp 768w" sizes="(max-width: 996px) 100vw, 996px">
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-23894b5 e-con-full e-flex e-con e-child" data-id="23894b5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;absolute&quot;}">
-                        <div class="elementor-element elementor-element-b798b51 elementor-view-stacked elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-shape-circle elementor-widget elementor-widget-icon-box" data-id="b798b51" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-element elementor-element-c86c02e elementor-widget elementor-widget-pt-contact-form-7" data-id="c86c02e" data-element_type="widget" data-widget_type="pt-contact-form-7.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-icon-box-wrapper">
-                                    <div class="elementor-icon-box-icon">
-                                        <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
-                                            <i aria-hidden="true" class="pticon pticon-checkmark"></i> </a>
-                                    </div>
-                                    <div class="elementor-icon-box-content">
-                                        <div class="elementor-icon-box-title">
-                                            <a href="#">
-                                                Expert dental care </a>
+                                <div class="pt-contact-form-7">
+                                    <div class="wpcf7 no-js" id="wpcf7-f1062-o2" lang="en-US" dir="ltr">
+                                        <div class="screen-reader-response">
+                                            <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                            <ul></ul>
                                         </div>
+                                        <form action="#" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                            <div style="display: none;">
+                                                <input type="hidden" name="_wpcf7" value="1062">
+                                                <input type="hidden" name="_wpcf7_version" value="5.8.5">
+                                                <input type="hidden" name="_wpcf7_locale" value="en_US">
+                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1062-o2">
+                                                <input type="hidden" name="_wpcf7_container_post" value="0">
+                                                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 mb-4 has-chevron">
+                                                    <p>
+                                                        <label>Select A Service*</label><br>
+                                                        <span class="wpcf7-form-control-wrap" data-name="menu-405">
+                                                            <select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" name="menu-405">
+                                                                <option value="Preventive Dental Examination">Preventive Dental Examination</option>
+                                                                <option value="Option 2">Option 2</option>
+                                                                <option value="Option 3">Option 3</option>
+                                                            </select>
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-4">
+                                                    <p><label>Your Name*</label><br>
+                                                        <span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" autocomplete="name" aria-required="true" aria-invalid="false" value="" type="text" name="your-name"></span>
+                                                    </p>
+                                                </div>
+                                                <div class="col-12 col-md-6 mb-4">
+                                                    <p><label>Your Phone</label><br>
+                                                        <span class="wpcf7-form-control-wrap" data-name="your-phone"><input size="40" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel" aria-invalid="false" value="" type="tel" name="your-phone"></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div style="margin-top: 8px;">
+                                                <p><input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="Agendar Consulta">
+                                                </p>
+                                            </div>
+                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-b30a0c4 elementor-view-stacked elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-shape-circle elementor-widget elementor-widget-icon-box" data-id="b30a0c4" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-element elementor-element-333b60d elementor-widget elementor-widget-text-editor" data-id="333b60d" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-icon-box-wrapper">
-                                    <div class="elementor-icon-box-icon">
-                                        <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
-                                            <i aria-hidden="true" class="pticon pticon-checkmark"></i> </a>
+                                <p>*Our manager will call you back within 15 minutes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-95b6728 e-con-full e-flex e-con e-child" data-id="95b6728" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                        <div class="elementor-element elementor-element-939658d elementor-widget elementor-widget-image" data-id="939658d" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img loading="lazy" width="996" height="1094" src="<?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12.webp" class="attachment-full size-full wp-image-372" alt="" srcset="<?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12.webp 996w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-273x300.webp 273w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-932x1024.webp 932w, <?php echo base_url(); ?>wp-content/uploads/2023/12/densmi-12-768x844.webp 768w" sizes="(max-width: 996px) 100vw, 996px">
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-23894b5 e-con-full e-flex e-con e-child" data-id="23894b5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;absolute&quot;}">
+                            <div class="elementor-element elementor-element-b798b51 elementor-view-stacked elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-shape-circle elementor-widget elementor-widget-icon-box" data-id="b798b51" data-element_type="widget" data-widget_type="icon-box.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-icon-box-wrapper">
+                                        <div class="elementor-icon-box-icon">
+                                            <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
+                                                <i aria-hidden="true" class="pticon pticon-checkmark"></i> </a>
+                                        </div>
+                                        <div class="elementor-icon-box-content">
+                                            <div class="elementor-icon-box-title">
+                                                <a href="#">
+                                                    Expert dental care </a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="elementor-icon-box-content">
-                                        <div class="elementor-icon-box-title">
-                                            <a href="#">
-                                                Comfort and convenience </a>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-b30a0c4 elementor-view-stacked elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-shape-circle elementor-widget elementor-widget-icon-box" data-id="b30a0c4" data-element_type="widget" data-widget_type="icon-box.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-icon-box-wrapper">
+                                        <div class="elementor-icon-box-icon">
+                                            <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
+                                                <i aria-hidden="true" class="pticon pticon-checkmark"></i> </a>
+                                        </div>
+                                        <div class="elementor-icon-box-content">
+                                            <div class="elementor-icon-box-title">
+                                                <a href="#">
+                                                    Comfort and convenience </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1915,16 +1921,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <?php
-    foreach ($ext_files['js'] as $js) {
-        echo $js;
-    }
-    if (file_exists("./application/views/$contexto/template/footers/$view.php")) {
-        require "./application/views/$contexto/template/footers/$view.php";
-    }
-    ?>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <?php
+        foreach ($ext_files['js'] as $js) {
+            echo $js;
+        }
+        if (file_exists("./application/views/$contexto/template/footers/$view.php")) {
+            require "./application/views/$contexto/template/footers/$view.php";
+        }
+        ?>
 </body>
 
 </html>
